@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": null,
+  "as_of_trading_date": null,
+  "universe_size": 0,
+  "downloaded_ok": 0,
+  "download_failed": [],
+  "buy_signals": [],
+  "sell_signals": [],
+  "watch_list": [],
+  "note": "Placeholder — ainda não correu nenhum screening. Corre o workflow manualmente (Actions -> Run workflow) para gerar o primeiro resultado."
+}
