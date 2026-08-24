@@ -1,0 +1,36 @@
+name: Minervini S&P 500 daily screen
+
+on:
+  schedule:
+    # 22:17 UTC, Mon-Fri — after the US market close (16:00 ET) with a buffer for
+    # Yahoo Finance's end-of-day data to settle, and off a round hour to avoid
+    # GitHub's busiest scheduling minute.
+    - cron: "17 22 * * 1-5"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Minervini screen
+        run: python minervini_screen.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "minervini-screen-bot"
+          git config user.email "actions@github.com"
+          git add signals.json report.md
+          git diff --quiet --cached || git commit -m "Daily screen: $(date -u +'%Y-%m-%d')"
+          git push
