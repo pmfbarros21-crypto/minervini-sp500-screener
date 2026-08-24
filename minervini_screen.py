@@ -20,9 +20,11 @@ import sys
 import time
 import warnings
 from datetime import datetime, timezone
+from io import StringIO
 
 import numpy as np
 import pandas as pd
+import requests
 import yfinance as yf
 
 warnings.filterwarnings("ignore")
@@ -40,9 +42,17 @@ INDEX_TICKER = "^GSPC"        # S&P 500 index, used as the market benchmark
 
 
 def get_sp500_tickers():
-    """Scrape the current S&P 500 constituent list from Wikipedia."""
+    """Scrape the current S&P 500 constituent list from Wikipedia.
+
+    Wikipedia returns HTTP 403 to pandas' default urllib request (no/blocked
+    User-Agent), so fetch the HTML ourselves with a browser-like User-Agent
+    and hand the text to pandas.read_html instead of letting it fetch the URL.
+    """
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-    tables = pd.read_html(url)
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; minervini-screener/1.0)"}
+    resp = requests.get(url, headers=headers, timeout=30)
+    resp.raise_for_status()
+    tables = pd.read_html(StringIO(resp.text))
     df = tables[0]
     tickers = df["Symbol"].astype(str).str.strip().str.replace(".", "-", regex=False).tolist()
     names = dict(zip(tickers, df["Security"].astype(str)))
