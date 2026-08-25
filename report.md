@@ -1,15 +1,19 @@
 # Minervini S&P 500 Screen — 2026-08-24
 
-_Gerado em 2026-08-24T23:02:56.233765+00:00 · 502/503 tickers processados, 1 falharam._
+_Gerado em 2026-08-25T09:52:23.760158+00:00 · 502/503 tickers processados, 1 falharam._
 
+
+## 🟢 Saúde do mercado: CONFIRMED UPTREND
+
+Mercado geral em tendência de alta confirmada — ambiente favorável a novas posições. (dias de distribuição nas últimas 25 sessões: 4)
 
 ## 🟢 BUY signals
 
-| Ticker | Nome | Preço | RS Rating | VCP Score | % abaixo da máx. 52w | Sinal |
-|---|---|---|---|---|---|---|
-| **VTRS** | Viatris | $16.54 | 83 | 38.9 | 9.4% | BUY - new Trend Template qualifier |
-| **SJM** | J.M. Smucker Company (The) | $125.87 | 72 | 29.7 | 0.5% | BUY - new Trend Template qualifier |
-| **CVX** | Chevron Corporation | $203.09 | 71 | 9.9 | 3.7% | BUY - new Trend Template qualifier |
+| Ticker | Nome | Preço | RS Rating | VCP Score | Cresc. EPS YoY | Cresc. Receita YoY | Passa fundamentais? | Sinal |
+|---|---|---|---|---|---|---|---|---|
+| **VTRS** | Viatris | $16.54 | 83 | 38.9 | n/d | 4.9% | ❌ | BUY - new Trend Template qualifier |
+| **SJM** | J.M. Smucker Company (The) | $125.87 | 72 | 29.6 | n/d | 5.8% | ❌ | BUY - new Trend Template qualifier |
+| **CVX** | Chevron Corporation | $203.09 | 71 | 9.6 | 384.8% | 53.5% | ✅ | BUY - new Trend Template qualifier |
 
 ## 🔴 SELL warnings
 
@@ -19,7 +23,7 @@ _Gerado em 2026-08-24T23:02:56.233765+00:00 · 502/503 tickers processados, 1 fa
 | **SNDK** | Sandisk | $1493.12 | 99 | fechou abaixo da SMA50 |
 | **MRVL** | Marvell Technology | $229.29 | 98 | fechou abaixo da SMA50 |
 | **STX** | Seagate Technology | $794.65 | 98 | fechou abaixo da SMA50 |
-| **AMD** | Advanced Micro Devices | $456.74 | 96 | fechou abaixo da SMA50 |
+| **AMD** | Advanced Micro Devices | $456.75 | 96 | fechou abaixo da SMA50 |
 | **LRCX** | Lam Research | $310.17 | 96 | fechou abaixo da SMA50 |
 | **FTNT** | Fortinet | $151.99 | 95 | fechou abaixo da SMA50 |
 | **TER** | Teradyne | $364.9 | 95 | fechou abaixo da SMA50 |
@@ -48,11 +52,11 @@ _Gerado em 2026-08-24T23:02:56.233765+00:00 · 502/503 tickers processados, 1 fa
 | **PNC** | PNC Financial Services | $243.68 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
 | **OMC** | Omnicom Group | $88.94 | 67 | RS Rating caiu para 67 |
 | **PH** | Parker Hannifin | $1014.24 | 67 | RS Rating caiu para 67 |
-| **HWM** | Howmet Aerospace | $263.29 | 66 | fechou abaixo da SMA50, RS Rating caiu para 66 |
 | **OKE** | Oneok | $93.02 | 66 | RS Rating caiu para 66 |
 | **PKG** | Packaging Corporation of America | $248.88 | 66 | RS Rating caiu para 66 |
 | **APH** | Amphenol | $155.55 | 65 | fechou abaixo da SMA50, RS Rating caiu para 65 |
 | **EQIX** | Equinix | $1055.2 | 65 | RS Rating caiu para 65 |
+| **HWM** | Howmet Aerospace | $263.29 | 65 | fechou abaixo da SMA50, RS Rating caiu para 65 |
 | **ADM** | Archer Daniels Midland | $78.16 | 64 | fechou abaixo da SMA50, RS Rating caiu para 64 |
 | **IRM** | Iron Mountain | $121.19 | 63 | fechou abaixo da SMA50, RS Rating caiu para 63 |
 | **PWR** | Quanta Services | $616.78 | 63 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 63 |
@@ -60,7 +64,7 @@ _Gerado em 2026-08-24T23:02:56.233765+00:00 · 502/503 tickers processados, 1 fa
 | **RF** | Regions Financial Corporation | $30.63 | 62 | fechou abaixo da SMA50, RS Rating caiu para 62 |
 | **EMR** | Emerson Electric | $157.57 | 61 | RS Rating caiu para 61 |
 | **AME** | Ametek | $242.33 | 60 | RS Rating caiu para 60 |
-| **JCI** | Johnson Controls | $142.99 | 58 | fechou abaixo da SMA50, RS Rating caiu para 58 |
+| **JCI** | Johnson Controls | $142.99 | 57 | fechou abaixo da SMA50, RS Rating caiu para 57 |
 | **MPWR** | Monolithic Power Systems | $1285.03 | 57 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 57 |
 | **GE** | GE Aerospace | $341.84 | 56 | fechou abaixo da SMA50, RS Rating caiu para 56 |
 | **ETN** | Eaton Corporation | $408.67 | 52 | fechou abaixo da SMA50, RS Rating caiu para 52 |

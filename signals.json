@@ -1,11 +1,19 @@
 {
-  "generated_at_utc": "2026-08-24T23:02:56.233765+00:00",
+  "generated_at_utc": "2026-08-25T09:52:23.760158+00:00",
   "as_of_trading_date": "2026-08-24",
   "universe_size": 503,
   "downloaded_ok": 502,
   "download_failed": [
     "HONA"
   ],
+  "market_health": {
+    "status": "CONFIRMED UPTREND",
+    "detail": "Mercado geral em tend\u00eancia de alta confirmada \u2014 ambiente favor\u00e1vel a novas posi\u00e7\u00f5es.",
+    "distribution_days": 4,
+    "index_close": 7652.86,
+    "index_above_50sma": true,
+    "index_above_150_200sma": true
+  },
   "buy_signals": [
     {
       "ticker": "VTRS",
@@ -16,7 +24,12 @@
       "vcp_score": 38.9,
       "pct_below_52w_high": 9.4,
       "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true
+      "strong_rs": true,
+      "eps_growth_yoy": null,
+      "revenue_growth_yoy": 4.9,
+      "roe": -2.8,
+      "profit_margin": -2.8,
+      "meets_growth_bar": false
     },
     {
       "ticker": "SJM",
@@ -24,10 +37,15 @@
       "sector": "Consumer Staples",
       "price": 125.87,
       "rs_rating": 72,
-      "vcp_score": 29.7,
+      "vcp_score": 29.6,
       "pct_below_52w_high": 0.5,
       "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false
+      "strong_rs": false,
+      "eps_growth_yoy": null,
+      "revenue_growth_yoy": 5.8,
+      "roe": -2.4,
+      "profit_margin": -1.5,
+      "meets_growth_bar": false
     },
     {
       "ticker": "CVX",
@@ -35,10 +53,15 @@
       "sector": "Energy",
       "price": 203.09,
       "rs_rating": 71,
-      "vcp_score": 9.9,
+      "vcp_score": 9.6,
       "pct_below_52w_high": 3.7,
       "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false
+      "strong_rs": false,
+      "eps_growth_yoy": 384.8,
+      "revenue_growth_yoy": 53.5,
+      "roe": 12.2,
+      "profit_margin": 9.8,
+      "meets_growth_bar": true
     }
   ],
   "sell_signals": [
@@ -98,9 +121,9 @@
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
       "sector": "Information Technology",
-      "price": 456.74,
+      "price": 456.75,
       "rs_rating": 96,
-      "vcp_score": 64.5,
+      "vcp_score": 64.2,
       "pct_below_52w_high": 21.9,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -113,7 +136,7 @@
       "sector": "Information Technology",
       "price": 310.17,
       "rs_rating": 96,
-      "vcp_score": 53.4,
+      "vcp_score": 53.3,
       "pct_below_52w_high": 29.3,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -166,7 +189,7 @@
       "sector": "Information Technology",
       "price": 190.68,
       "rs_rating": 94,
-      "vcp_score": 20.7,
+      "vcp_score": 20.6,
       "pct_below_52w_high": 16.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -310,7 +333,7 @@
       "sector": "Industrials",
       "price": 82.48,
       "rs_rating": 74,
-      "vcp_score": 38.1,
+      "vcp_score": 38.2,
       "pct_below_52w_high": 13.6,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -323,7 +346,7 @@
       "sector": "Financials",
       "price": 131.72,
       "rs_rating": 73,
-      "vcp_score": 43.9,
+      "vcp_score": 43.6,
       "pct_below_52w_high": 10.5,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -350,7 +373,7 @@
       "sector": "Industrials",
       "price": 1083.56,
       "rs_rating": 72,
-      "vcp_score": 13.5,
+      "vcp_score": 13.2,
       "pct_below_52w_high": 8.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -363,7 +386,7 @@
       "sector": "Financials",
       "price": 173.13,
       "rs_rating": 70,
-      "vcp_score": 24.6,
+      "vcp_score": 22.8,
       "pct_below_52w_high": 9.6,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -376,7 +399,7 @@
       "sector": "Financials",
       "price": 356.39,
       "rs_rating": 69,
-      "vcp_score": 45.8,
+      "vcp_score": 45.7,
       "pct_below_52w_high": 2.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -389,7 +412,7 @@
       "sector": "Financials",
       "price": 241.79,
       "rs_rating": 69,
-      "vcp_score": 18.2,
+      "vcp_score": 18.0,
       "pct_below_52w_high": 5.5,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -443,7 +466,7 @@
       "sector": "Financials",
       "price": 243.68,
       "rs_rating": 68,
-      "vcp_score": 20.0,
+      "vcp_score": 19.4,
       "pct_below_52w_high": 5.9,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -457,7 +480,7 @@
       "sector": "Communication Services",
       "price": 88.94,
       "rs_rating": 67,
-      "vcp_score": 48.1,
+      "vcp_score": 47.9,
       "pct_below_52w_high": 0.7,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -470,25 +493,11 @@
       "sector": "Industrials",
       "price": 1014.24,
       "rs_rating": 67,
-      "vcp_score": 29.0,
+      "vcp_score": 27.8,
       "pct_below_52w_high": 7.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "RS Rating caiu para 67"
-      ]
-    },
-    {
-      "ticker": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "price": 263.29,
-      "rs_rating": 66,
-      "vcp_score": 22.2,
-      "pct_below_52w_high": 15.0,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "RS Rating caiu para 66"
       ]
     },
     {
@@ -497,7 +506,7 @@
       "sector": "Energy",
       "price": 93.02,
       "rs_rating": 66,
-      "vcp_score": 12.8,
+      "vcp_score": 12.7,
       "pct_below_52w_high": 5.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -537,10 +546,24 @@
       "sector": "Real Estate",
       "price": 1055.2,
       "rs_rating": 65,
-      "vcp_score": 9.9,
+      "vcp_score": 9.5,
       "pct_below_52w_high": 5.7,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
+        "RS Rating caiu para 65"
+      ]
+    },
+    {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
+      "price": 263.29,
+      "rs_rating": 65,
+      "vcp_score": 22.1,
+      "pct_below_52w_high": 15.0,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
         "RS Rating caiu para 65"
       ]
     },
@@ -550,7 +573,7 @@
       "sector": "Consumer Staples",
       "price": 78.16,
       "rs_rating": 64,
-      "vcp_score": 4.3,
+      "vcp_score": 4.2,
       "pct_below_52w_high": 11.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -564,7 +587,7 @@
       "sector": "Real Estate",
       "price": 121.19,
       "rs_rating": 63,
-      "vcp_score": 32.2,
+      "vcp_score": 32.1,
       "pct_below_52w_high": 10.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -578,7 +601,7 @@
       "sector": "Industrials",
       "price": 616.78,
       "rs_rating": 63,
-      "vcp_score": 8.5,
+      "vcp_score": 7.2,
       "pct_below_52w_high": 21.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -608,7 +631,7 @@
       "sector": "Financials",
       "price": 30.63,
       "rs_rating": 62,
-      "vcp_score": 32.8,
+      "vcp_score": 32.3,
       "pct_below_52w_high": 5.7,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -647,13 +670,13 @@
       "name": "Johnson Controls",
       "sector": "Industrials",
       "price": 142.99,
-      "rs_rating": 58,
-      "vcp_score": 38.3,
+      "rs_rating": 57,
+      "vcp_score": 38.2,
       "pct_below_52w_high": 9.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 58"
+        "RS Rating caiu para 57"
       ]
     },
     {
@@ -705,7 +728,7 @@
       "sector": "Industrials",
       "price": 113.57,
       "rs_rating": 49,
-      "vcp_score": 53.0,
+      "vcp_score": 52.8,
       "pct_below_52w_high": 18.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -719,7 +742,7 @@
       "sector": "Consumer Discretionary",
       "price": 370.82,
       "rs_rating": 45,
-      "vcp_score": 34.8,
+      "vcp_score": 34.5,
       "pct_below_52w_high": 11.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
