@@ -151,6 +151,75 @@ def compute_indicators(df):
     return out
 
 
+def compute_market_health(index_df):
+    """Minervini is emphatic that individual buy signals only matter in a market
+    that itself is in a confirmed uptrend — he sizes down or stops buying
+    aggressively in a correction, regardless of how good a single setup looks.
+
+    Approximates his market-timing model with two checks on the S&P 500 index itself:
+      1. Trend: is the index above its 50/200-day MAs, with the 200-day rising?
+      2. Distribution days: count of days in the last 25 sessions where the index
+         closed down >=0.2% on higher volume than the prior day (an O'Neil/Minervini
+         "institutional selling" signal). 5+ in a short window signals distribution.
+    """
+    ind = compute_indicators(index_df)
+    if ind.empty:
+        return {"status": "UNKNOWN", "detail": "sem dados suficientes do índice", "distribution_days": None}
+
+    last = ind.iloc[-1]
+    trend_ok = bool(last["c1_above_150_200"] and last["c5_close_above_50"] and last["c3_200_trending_up"])
+
+    window = index_df.tail(25).copy()
+    window["pct_change"] = window["Close"].pct_change()
+    window["vol_prev"] = window["Volume"].shift(1)
+    distribution_days = int(((window["pct_change"] <= -0.002) & (window["Volume"] > window["vol_prev"])).sum())
+
+    if trend_ok and distribution_days < 5:
+        status = "CONFIRMED UPTREND"
+        detail = "Mercado geral em tendência de alta confirmada — ambiente favorável a novas posições."
+    elif not trend_ok:
+        status = "CORRECTION / CAUTION"
+        detail = "Índice abaixo de médias-chave — Minervini reduziria exposição e evitaria comprar agressivamente."
+    else:
+        status = "UNDER PRESSURE"
+        detail = f"Tendência técnica OK mas {distribution_days} dias de distribuição nas últimas 25 sessões — sinal de venda institucional, cautela."
+
+    return {
+        "status": status,
+        "detail": detail,
+        "distribution_days": distribution_days,
+        "index_close": round(float(last["close"]), 2),
+        "index_above_50sma": bool(last["c5_close_above_50"]),
+        "index_above_150_200sma": bool(last["c1_above_150_200"]),
+    }
+
+
+def fetch_fundamentals(ticker):
+    """Best-effort fundamental snapshot for a single ticker (only called for the
+    small shortlist that already passed the technical screen — cheap enough to
+    do per-ticker). Minervini's SEPA requires accelerating earnings/sales growth
+    alongside the technical setup, not price action alone."""
+    try:
+        info = yf.Ticker(ticker).info
+        eps_growth = info.get("earningsQuarterlyGrowth")
+        rev_growth = info.get("revenueGrowth")
+        roe = info.get("returnOnEquity")
+        margins = info.get("profitMargins")
+        passes = (eps_growth is not None and eps_growth >= 0.20) or (rev_growth is not None and rev_growth >= 0.15)
+        return {
+            "eps_growth_yoy": round(eps_growth * 100, 1) if eps_growth is not None else None,
+            "revenue_growth_yoy": round(rev_growth * 100, 1) if rev_growth is not None else None,
+            "roe": round(roe * 100, 1) if roe is not None else None,
+            "profit_margin": round(margins * 100, 1) if margins is not None else None,
+            "meets_growth_bar": passes if (eps_growth is not None or rev_growth is not None) else None,
+        }
+    except Exception:
+        return {
+            "eps_growth_yoy": None, "revenue_growth_yoy": None, "roe": None,
+            "profit_margin": None, "meets_growth_bar": None,
+        }
+
+
 def compute_rs_ratings(closes_by_ticker, dates):
     """Cross-sectional RS Rating (1-99 percentile) for each date in `dates`,
     using an IBD-style weighted-return formula: 40% * 3mo + 20% each of 6/9/12mo."""
@@ -187,9 +256,14 @@ def main():
 
     print("Downloading price history (this can take several minutes)...")
     frames, failed = download_batches(tickers)
-    if INDEX_TICKER in frames:
-        frames.pop(INDEX_TICKER, None)
+    index_df = frames.pop(INDEX_TICKER, None)
     print(f"Downloaded {len(frames)} tickers, {len(failed)} failed.")
+
+    print("Computing market health (S&P 500 index trend + distribution days)...")
+    market_health = compute_market_health(index_df) if index_df is not None else {
+        "status": "UNKNOWN", "detail": "não foi possível descarregar o índice ^GSPC", "distribution_days": None,
+    }
+    print(f"Market health: {market_health['status']}")
 
     print("Computing indicators...")
     ind = {t: compute_indicators(df) for t, df in frames.items()}
@@ -279,6 +353,15 @@ def main():
     buy_signals.sort(key=lambda r: (r["rs_rating"] or 0), reverse=True)
     sell_signals.sort(key=lambda r: (r["rs_rating"] or 0), reverse=True)
     watch_list.sort(key=lambda r: (r["vcp_score"] or 0), reverse=True)
+    watch_list = watch_list[:30]
+
+    print(f"Fetching fundamentals for the {len(buy_signals)} buy signal(s) + {min(len(watch_list), 15)} top watchlist name(s)...")
+    for r in buy_signals:
+        r.update(fetch_fundamentals(r["ticker"]))
+        time.sleep(0.3)
+    for r in watch_list[:15]:
+        r.update(fetch_fundamentals(r["ticker"]))
+        time.sleep(0.3)
 
     result = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -286,9 +369,10 @@ def main():
         "universe_size": len(tickers),
         "downloaded_ok": len(frames),
         "download_failed": failed,
+        "market_health": market_health,
         "buy_signals": buy_signals,
         "sell_signals": sell_signals,
-        "watch_list": watch_list[:30],
+        "watch_list": watch_list,
     }
 
     with open("signals.json", "w") as f:
@@ -304,13 +388,21 @@ def write_report_md(result):
     lines.append(f"_Gerado em {result['generated_at_utc']} · {result['downloaded_ok']}/{result['universe_size']} tickers processados"
                   f"{', ' + str(len(result['download_failed'])) + ' falharam' if result['download_failed'] else ''}._\n")
 
+    mh = result.get("market_health", {})
+    status_emoji = {"CONFIRMED UPTREND": "🟢", "UNDER PRESSURE": "🟡", "CORRECTION / CAUTION": "🔴"}.get(mh.get("status"), "⚪")
+    lines.append(f"\n## {status_emoji} Saúde do mercado: {mh.get('status', 'UNKNOWN')}\n")
+    lines.append(f"{mh.get('detail', '')} (dias de distribuição nas últimas 25 sessões: {mh.get('distribution_days', 'n/d')})")
+
     lines.append("\n## 🟢 BUY signals\n")
     if result["buy_signals"]:
-        lines.append("| Ticker | Nome | Preço | RS Rating | VCP Score | % abaixo da máx. 52w | Sinal |")
-        lines.append("|---|---|---|---|---|---|---|")
+        lines.append("| Ticker | Nome | Preço | RS Rating | VCP Score | Cresc. EPS YoY | Cresc. Receita YoY | Passa fundamentais? | Sinal |")
+        lines.append("|---|---|---|---|---|---|---|---|---|")
         for r in result["buy_signals"]:
+            eps = f"{r.get('eps_growth_yoy')}%" if r.get('eps_growth_yoy') is not None else "n/d"
+            rev = f"{r.get('revenue_growth_yoy')}%" if r.get('revenue_growth_yoy') is not None else "n/d"
+            fund_ok = {"True": "✅", "False": "❌", "None": "n/d"}[str(r.get("meets_growth_bar"))]
             lines.append(f"| **{r['ticker']}** | {r['name']} | ${r['price']} | {r['rs_rating']} | {r['vcp_score']} | "
-                          f"{r['pct_below_52w_high']}% | {r['signal']} |")
+                          f"{eps} | {rev} | {fund_ok} | {r['signal']} |")
     else:
         lines.append("_Nenhum sinal de compra hoje._")
 
