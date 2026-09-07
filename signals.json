@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T22:23:58.908520+00:00",
+  "generated_at_utc": "2026-09-07T22:25:08.168914+00:00",
   "as_of_trading_date": "2026-09-04",
   "universe_size": 503,
   "downloaded_ok": 502,
@@ -30,86 +30,6 @@
       "roe": 20.9,
       "profit_margin": 19.1,
       "meets_growth_bar": true
-    },
-    {
-      "ticker": "BBY",
-      "name": "Best Buy",
-      "sector": "Consumer Discretionary",
-      "price": 90.27,
-      "rs_rating": 85,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 1.1,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true,
-      "eps_growth_yoy": 69.4,
-      "revenue_growth_yoy": 3.6,
-      "roe": 43.1,
-      "profit_margin": 3.0,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics",
-      "sector": "Materials",
-      "price": 242.06,
-      "rs_rating": 85,
-      "vcp_score": 14.8,
-      "pct_below_52w_high": 16.0,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true,
-      "eps_growth_yoy": 78.8,
-      "revenue_growth_yoy": 33.4,
-      "roe": 17.6,
-      "profit_margin": 7.8,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "C",
-      "name": "Citigroup",
-      "sector": "Financials",
-      "price": 137.72,
-      "rs_rating": 80,
-      "vcp_score": 39.2,
-      "pct_below_52w_high": 6.4,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true,
-      "eps_growth_yoy": 45.1,
-      "revenue_growth_yoy": 15.5,
-      "roe": 8.5,
-      "profit_margin": 21.8,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva",
-      "sector": "Materials",
-      "price": 87.86,
-      "rs_rating": 75,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 3.3,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false,
-      "eps_growth_yoy": -11.6,
-      "revenue_growth_yoy": -1.2,
-      "roe": 4.3,
-      "profit_margin": 5.7,
-      "meets_growth_bar": false
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "sector": "Health Care",
-      "price": 407.5,
-      "rs_rating": 75,
-      "vcp_score": 42.1,
-      "pct_below_52w_high": 6.6,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false,
-      "eps_growth_yoy": -16.1,
-      "revenue_growth_yoy": 1.4,
-      "roe": 11.1,
-      "profit_margin": 2.5,
-      "meets_growth_bar": false
     }
   ],
   "sell_signals": [
@@ -166,25 +86,12 @@
       ]
     },
     {
-      "ticker": "CFG",
-      "name": "Citizens Financial Group",
-      "sector": "Financials",
-      "price": 70.78,
-      "rs_rating": 79,
-      "vcp_score": 33.0,
-      "pct_below_52w_high": 6.0,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50"
-      ]
-    },
-    {
       "ticker": "WAB",
       "name": "Wabtec",
       "sector": "Industrials",
       "price": 282.86,
-      "rs_rating": 79,
-      "vcp_score": 32.1,
+      "rs_rating": 78,
+      "vcp_score": 32.0,
       "pct_below_52w_high": 7.7,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -196,8 +103,8 @@
       "name": "Welltower",
       "sector": "Real Estate",
       "price": 236.17,
-      "rs_rating": 79,
-      "vcp_score": 21.0,
+      "rs_rating": 78,
+      "vcp_score": 20.6,
       "pct_below_52w_high": 7.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -210,7 +117,7 @@
       "sector": "Health Care",
       "price": 339.97,
       "rs_rating": 77,
-      "vcp_score": 50.5,
+      "vcp_score": 50.3,
       "pct_below_52w_high": 11.9,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -245,6 +152,19 @@
       ]
     },
     {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "sector": "Materials",
+      "price": 62.67,
+      "rs_rating": 72,
+      "vcp_score": 30.4,
+      "pct_below_52w_high": 7.3,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50"
+      ]
+    },
+    {
       "ticker": "GS",
       "name": "Goldman Sachs",
       "sector": "Financials",
@@ -258,39 +178,12 @@
       ]
     },
     {
-      "ticker": "PWR",
-      "name": "Quanta Services",
-      "sector": "Industrials",
-      "price": 624.41,
-      "rs_rating": 72,
-      "vcp_score": 30.2,
-      "pct_below_52w_high": 20.8,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "pre\u00e7o abaixo da SMA150/200"
-      ]
-    },
-    {
-      "ticker": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "price": 259.27,
-      "rs_rating": 71,
-      "vcp_score": 13.0,
-      "pct_below_52w_high": 16.3,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50"
-      ]
-    },
-    {
       "ticker": "UNP",
       "name": "Union Pacific Corporation",
       "sector": "Industrials",
       "price": 289.62,
       "rs_rating": 71,
-      "vcp_score": 10.6,
+      "vcp_score": 10.5,
       "pct_below_52w_high": 7.9,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -329,7 +222,7 @@
       "sector": "Health Care",
       "price": 1149.36,
       "rs_rating": 70,
-      "vcp_score": 27.7,
+      "vcp_score": 27.6,
       "pct_below_52w_high": 11.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -342,8 +235,21 @@
       "sector": "Health Care",
       "price": 256.46,
       "rs_rating": 69,
-      "vcp_score": 42.8,
+      "vcp_score": 42.7,
       "pct_below_52w_high": 4.1,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "RS Rating caiu para 69"
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "price": 319.97,
+      "rs_rating": 69,
+      "vcp_score": 19.7,
+      "pct_below_52w_high": 7.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "RS Rating caiu para 69"
@@ -354,13 +260,13 @@
       "name": "IDEX Corporation",
       "sector": "Industrials",
       "price": 223.74,
-      "rs_rating": 69,
+      "rs_rating": 68,
       "vcp_score": 16.2,
       "pct_below_52w_high": 8.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 69"
+        "RS Rating caiu para 68"
       ]
     },
     {
@@ -368,26 +274,12 @@
       "name": "EOG Resources",
       "sector": "Energy",
       "price": 145.19,
-      "rs_rating": 68,
-      "vcp_score": 5.9,
+      "rs_rating": 67,
+      "vcp_score": 5.7,
       "pct_below_52w_high": 5.5,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "RS Rating caiu para 68"
-      ]
-    },
-    {
-      "ticker": "MTB",
-      "name": "M&T Bank",
-      "sector": "Financials",
-      "price": 239.84,
-      "rs_rating": 68,
-      "vcp_score": 21.7,
-      "pct_below_52w_high": 5.7,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "RS Rating caiu para 68"
+        "RS Rating caiu para 67"
       ]
     },
     {
@@ -396,7 +288,7 @@
       "sector": "Real Estate",
       "price": 20.65,
       "rs_rating": 67,
-      "vcp_score": 25.9,
+      "vcp_score": 25.8,
       "pct_below_52w_high": 9.6,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -409,13 +301,13 @@
       "name": "Starbucks",
       "sector": "Consumer Discretionary",
       "price": 104.47,
-      "rs_rating": 66,
+      "rs_rating": 65,
       "vcp_score": 38.6,
       "pct_below_52w_high": 4.9,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 66"
+        "RS Rating caiu para 65"
       ]
     },
     {
@@ -424,7 +316,7 @@
       "sector": "Consumer Staples",
       "price": 43.82,
       "rs_rating": 64,
-      "vcp_score": 27.8,
+      "vcp_score": 27.5,
       "pct_below_52w_high": 12.7,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -438,7 +330,7 @@
       "sector": "Communication Services",
       "price": 30.39,
       "rs_rating": 63,
-      "vcp_score": 24.0,
+      "vcp_score": 23.8,
       "pct_below_52w_high": 4.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -450,13 +342,13 @@
       "name": "RTX Corporation",
       "sector": "Industrials",
       "price": 200.79,
-      "rs_rating": 63,
-      "vcp_score": 28.4,
+      "rs_rating": 62,
+      "vcp_score": 28.3,
       "pct_below_52w_high": 11.3,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 63"
+        "RS Rating caiu para 62"
       ]
     },
     {
@@ -479,7 +371,7 @@
       "sector": "Industrials",
       "price": 124.7,
       "rs_rating": 60,
-      "vcp_score": 41.1,
+      "vcp_score": 40.9,
       "pct_below_52w_high": 10.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -507,7 +399,7 @@
       "sector": "Communication Services",
       "price": 33.9,
       "rs_rating": 59,
-      "vcp_score": 20.0,
+      "vcp_score": 19.6,
       "pct_below_52w_high": 5.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -519,27 +411,13 @@
       "name": "Norfolk Southern",
       "sector": "Industrials",
       "price": 329.46,
-      "rs_rating": 58,
-      "vcp_score": 7.6,
+      "rs_rating": 57,
+      "vcp_score": 6.1,
       "pct_below_52w_high": 7.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 58"
-      ]
-    },
-    {
-      "ticker": "PKG",
-      "name": "Packaging Corporation of America",
-      "sector": "Materials",
-      "price": 237.25,
-      "rs_rating": 58,
-      "vcp_score": 8.7,
-      "pct_below_52w_high": 8.7,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "RS Rating caiu para 58"
+        "RS Rating caiu para 57"
       ]
     },
     {
@@ -548,7 +426,7 @@
       "sector": "Communication Services",
       "price": 173.5,
       "rs_rating": 55,
-      "vcp_score": 20.7,
+      "vcp_score": 19.0,
       "pct_below_52w_high": 8.3,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -561,27 +439,13 @@
       "name": "Omnicom Group",
       "sector": "Communication Services",
       "price": 82.62,
-      "rs_rating": 55,
+      "rs_rating": 54,
       "vcp_score": 27.1,
       "pct_below_52w_high": 7.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 55"
-      ]
-    },
-    {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "sector": "Industrials",
-      "price": 1009.86,
-      "rs_rating": 50,
-      "vcp_score": 18.5,
-      "pct_below_52w_high": 14.2,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "RS Rating caiu para 50"
+        "RS Rating caiu para 54"
       ]
     }
   ],
