@@ -40,6 +40,15 @@ RS_STRONG = 80                # "strong" RS Rating threshold
 BATCH_SIZE = 60               # tickers per yfinance batch download (keeps requests reliable)
 INDEX_TICKER = "^GSPC"        # S&P 500 index, used as the market benchmark
 
+# Tickers seguidos fora do universo S&P 500 (não entram no cálculo de
+# universe_size/RS Rating cross-sectional oficial, mas são processados com a
+# mesma metodologia e recebem um status diário completo em
+# `extra_tickers_daily_status`, independentemente de haver ou não uma
+# transição de sinal).
+EXTRA_TICKERS = ["GME"]
+EXTRA_NAMES = {"GME": "GameStop Corp."}
+EXTRA_SECTORS = {"GME": "Consumer Discretionary"}
+
 
 def get_sp500_tickers():
     """Scrape the current S&P 500 constituent list from Wikipedia.
@@ -254,6 +263,14 @@ def main():
     tickers, names, sectors = get_sp500_tickers()
     print(f"{len(tickers)} tickers found.")
 
+    for t in EXTRA_TICKERS:
+        if t not in tickers:
+            tickers.append(t)
+        names.setdefault(t, EXTRA_NAMES.get(t, t))
+        sectors.setdefault(t, EXTRA_SECTORS.get(t, ""))
+    if EXTRA_TICKERS:
+        print(f"Extra tickers (fora do S&P 500) incluídos: {EXTRA_TICKERS}")
+
     print("Downloading price history (this can take several minutes)...")
     frames, failed = download_batches(tickers)
     index_df = frames.pop(INDEX_TICKER, None)
@@ -355,6 +372,42 @@ def main():
     watch_list.sort(key=lambda r: (r["vcp_score"] or 0), reverse=True)
     watch_list = watch_list[:30]
 
+    # Status diário completo dos EXTRA_TICKERS (ex: GME) — sempre presente,
+    # ao contrário de buy/sell_signals que só disparam em transições.
+    extra_status = []
+    for t in EXTRA_TICKERS:
+        df = ind.get(t)
+        if df is None or today not in df.index:
+            extra_status.append({"ticker": t, "name": names.get(t, t), "error": "sem dados suficientes"})
+            continue
+        row = df.loc[today]
+        rs_today = rs_by_date.get(today, {}).get(t)
+        price = round(float(row["close"]), 2)
+        criteria = {
+            "acima_sma150_e_sma200": bool(row["c1_above_150_200"]),
+            "sma150_acima_sma200": bool(row["c2_150_above_200"]),
+            "sma200_em_alta_1m": bool(row["c3_200_trending_up"]),
+            "sma50_acima_sma150_e_sma200": bool(row["c4_50_above_150_200"]),
+            "fecho_acima_sma50": bool(row["c5_close_above_50"]),
+            "30pct_acima_minimo_52s": bool(row["c6_30pct_above_low"]),
+            "dentro_25pct_do_maximo_52s": bool(row["c7_within_25pct_high"]),
+        }
+        entry = {
+            "ticker": t,
+            "name": names.get(t, t),
+            "sector": sectors.get(t, ""),
+            "price": price,
+            "rs_rating": rs_today,
+            "vcp_score": round(float(row["vcp_score"]), 1) if not pd.isna(row["vcp_score"]) else None,
+            "pct_below_52w_high": round((1 - price / float(row["high_52w"])) * 100, 1)
+                if row["high_52w"] and not pd.isna(row["high_52w"]) else None,
+            "passes_trend_template": all(criteria.values()) and (rs_today is not None and rs_today >= RS_MIN_FOR_BUY),
+            "criteria": criteria,
+            "breakout_today": bool(row.get("breakout", False)),
+        }
+        entry.update(fetch_fundamentals(t))
+        extra_status.append(entry)
+
     print(f"Fetching fundamentals for the {len(buy_signals)} buy signal(s) + {min(len(watch_list), 15)} top watchlist name(s)...")
     for r in buy_signals:
         r.update(fetch_fundamentals(r["ticker"]))
@@ -373,6 +426,7 @@ def main():
         "buy_signals": buy_signals,
         "sell_signals": sell_signals,
         "watch_list": watch_list,
+        "extra_tickers_daily_status": extra_status,
     }
 
     with open("signals.json", "w") as f:
@@ -423,6 +477,20 @@ def write_report_md(result):
             lines.append(f"| {r['ticker']} | {r['name']} | ${r['price']} | {r['rs_rating']} | {r['vcp_score']} |")
     else:
         lines.append("_Vazio._")
+
+    extra = result.get("extra_tickers_daily_status", [])
+    if extra:
+        lines.append("\n## 📌 Tickers extra (fora do S&P 500) — status diário\n")
+        lines.append("| Ticker | Nome | Preço | RS Rating | VCP Score | Trend Template completo? | Fundamentais |")
+        lines.append("|---|---|---|---|---|---|---|")
+        for r in extra:
+            if "error" in r:
+                lines.append(f"| **{r['ticker']}** | {r.get('name', r['ticker'])} | — | — | — | {r['error']} | — |")
+                continue
+            fund_ok = {"True": "✅", "False": "❌", "None": "n/d"}[str(r.get("meets_growth_bar"))]
+            passes = "✅" if r["passes_trend_template"] else "❌"
+            lines.append(f"| **{r['ticker']}** | {r['name']} | ${r['price']} | {r['rs_rating']} | {r['vcp_score']} | "
+                          f"{passes} | {fund_ok} |")
 
     lines.append("\n---\n_Isto é uma ferramenta de screening baseada numa metodologia pública (SEPA / Trend Template "
                   "de Mark Minervini). Não é aconselhamento financeiro. Dados: Yahoo Finance via yfinance._")
