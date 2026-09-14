@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-11T22:25:22.205112+00:00",
+  "generated_at_utc": "2026-09-14T22:27:35.059485+00:00",
   "as_of_trading_date": "2026-09-11",
   "universe_size": 504,
   "downloaded_ok": 504,
@@ -8,7 +8,7 @@
     "status": "CONFIRMED UPTREND",
     "detail": "Mercado geral em tend\u00eancia de alta confirmada \u2014 ambiente favor\u00e1vel a novas posi\u00e7\u00f5es.",
     "distribution_days": 4,
-    "index_close": 7656.98,
+    "index_close": 7619.98,
     "index_above_50sma": true,
     "index_above_150_200sma": true
   },
@@ -51,7 +51,7 @@
       "sector": "Industrials",
       "price": 1690.82,
       "rs_rating": 92,
-      "vcp_score": 49.9,
+      "vcp_score": 49.8,
       "pct_below_52w_high": 18.4,
       "signal": "BUY - new Trend Template qualifier",
       "strong_rs": true,
@@ -131,7 +131,7 @@
       "sector": "Industrials",
       "price": 146.01,
       "rs_rating": 70,
-      "vcp_score": 42.8,
+      "vcp_score": 42.7,
       "pct_below_52w_high": 7.0,
       "signal": "BUY - new Trend Template qualifier",
       "strong_rs": false,
@@ -214,7 +214,7 @@
       "sector": "Materials",
       "price": 239.79,
       "rs_rating": 87,
-      "vcp_score": 30.8,
+      "vcp_score": 30.7,
       "pct_below_52w_high": 16.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -253,7 +253,7 @@
       "sector": "Industrials",
       "price": 48.95,
       "rs_rating": 84,
-      "vcp_score": 9.1,
+      "vcp_score": 8.9,
       "pct_below_52w_high": 8.4,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -266,7 +266,7 @@
       "sector": "Industrials",
       "price": 283.22,
       "rs_rating": 83,
-      "vcp_score": 22.4,
+      "vcp_score": 22.3,
       "pct_below_52w_high": 7.5,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -279,7 +279,7 @@
       "sector": "Financials",
       "price": 253.71,
       "rs_rating": 81,
-      "vcp_score": 19.8,
+      "vcp_score": 19.7,
       "pct_below_52w_high": 8.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -292,7 +292,7 @@
       "sector": "Industrials",
       "price": 311.99,
       "rs_rating": 80,
-      "vcp_score": 7.6,
+      "vcp_score": 7.3,
       "pct_below_52w_high": 9.3,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -318,7 +318,7 @@
       "sector": "Real Estate",
       "price": 235.62,
       "rs_rating": 78,
-      "vcp_score": 6.4,
+      "vcp_score": 5.9,
       "pct_below_52w_high": 7.3,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -370,7 +370,7 @@
       "sector": "Industrials",
       "price": 224.21,
       "rs_rating": 76,
-      "vcp_score": 31.4,
+      "vcp_score": 31.1,
       "pct_below_52w_high": 8.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -396,7 +396,7 @@
       "sector": "Real Estate",
       "price": 1037.72,
       "rs_rating": 73,
-      "vcp_score": 8.2,
+      "vcp_score": 7.9,
       "pct_below_52w_high": 7.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -409,7 +409,7 @@
       "sector": "Industrials",
       "price": 89.24,
       "rs_rating": 73,
-      "vcp_score": 2.1,
+      "vcp_score": 1.9,
       "pct_below_52w_high": 14.0,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -486,12 +486,12 @@
       "name": "J.M. Smucker Company (The)",
       "sector": "Consumer Staples",
       "price": 121.14,
-      "rs_rating": 66,
-      "vcp_score": 15.6,
+      "rs_rating": 65,
+      "vcp_score": 15.5,
       "pct_below_52w_high": 10.9,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "RS Rating caiu para 66"
+        "RS Rating caiu para 65"
       ]
     },
     {
@@ -500,12 +500,25 @@
       "sector": "Consumer Discretionary",
       "price": 226.23,
       "rs_rating": 65,
-      "vcp_score": 12.3,
+      "vcp_score": 12.1,
       "pct_below_52w_high": 11.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
         "RS Rating caiu para 65"
+      ]
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Companies",
+      "sector": "Energy",
+      "price": 72.85,
+      "rs_rating": 64,
+      "vcp_score": 4.8,
+      "pct_below_52w_high": 7.7,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "RS Rating caiu para 64"
       ]
     },
     {
@@ -528,23 +541,8 @@
       "sector": "Materials",
       "price": 59.9,
       "rs_rating": 62,
-      "vcp_score": 29.1,
+      "vcp_score": 28.9,
       "pct_below_52w_high": 11.4,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "pre\u00e7o abaixo da SMA150/200",
-        "RS Rating caiu para 62"
-      ]
-    },
-    {
-      "ticker": "WMB",
-      "name": "Williams Companies",
-      "sector": "Energy",
-      "price": 72.85,
-      "rs_rating": 62,
-      "vcp_score": 4.9,
-      "pct_below_52w_high": 8.4,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
@@ -572,7 +570,7 @@
       "sector": "Consumer Discretionary",
       "price": 98.74,
       "rs_rating": 56,
-      "vcp_score": 36.4,
+      "vcp_score": 36.3,
       "pct_below_52w_high": 10.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
@@ -587,7 +585,7 @@
       "sector": "Materials",
       "price": 42.32,
       "rs_rating": 55,
-      "vcp_score": 25.9,
+      "vcp_score": 25.4,
       "pct_below_52w_high": 13.2,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [

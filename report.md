@@ -1,6 +1,6 @@
 # Minervini S&P 500 Screen — 2026-09-11
 
-_Gerado em 2026-09-11T22:25:22.205112+00:00 · 504/504 tickers processados._
+_Gerado em 2026-09-14T22:27:35.059485+00:00 · 504/504 tickers processados._
 
 
 ## 🟢 Saúde do mercado: CONFIRMED UPTREND
@@ -13,12 +13,12 @@ Mercado geral em tendência de alta confirmada — ambiente favorável a novas p
 |---|---|---|---|---|---|---|---|---|
 | **DELL** | Dell Technologies | $567.29 | 99 | 0.0 | 255.1% | 57.7% | ✅ | BUY - breakout with volume |
 | **HPQ** | HP Inc. | $35.48 | 95 | 0.0 | -13.4% | 12.5% | ❌ | BUY - breakout with volume |
-| **FIX** | Comfort Systems USA | $1690.82 | 92 | 49.9 | 38.2% | 1.0% | ✅ | BUY - new Trend Template qualifier |
+| **FIX** | Comfort Systems USA | $1690.82 | 92 | 49.8 | 38.2% | 1.0% | ✅ | BUY - new Trend Template qualifier |
 | **SWKS** | Skyworks Solutions | $88.35 | 90 | 0.0 | -67.7% | -3.1% | ❌ | BUY - breakout with volume |
 | **PWR** | Quanta Services | $650.58 | 81 | 37.2 | 96.9% | 41.1% | ✅ | BUY - new Trend Template qualifier |
 | **ADI** | Analog Devices | $378.78 | 77 | 32.5 | 158.4% | 39.6% | ✅ | BUY - new Trend Template qualifier |
 | **ETN** | Eaton Corporation | $425.37 | 71 | 30.6 | -16.4% | 21.4% | ✅ | BUY - new Trend Template qualifier |
-| **JCI** | Johnson Controls | $146.01 | 70 | 42.8 | 6.8% | 9.3% | ❌ | BUY - new Trend Template qualifier |
+| **JCI** | Johnson Controls | $146.01 | 70 | 42.7 | 6.8% | 9.3% | ❌ | BUY - new Trend Template qualifier |
 
 ## 🔴 SELL warnings
 
@@ -50,11 +50,11 @@ Mercado geral em tendência de alta confirmada — ambiente favorável a novas p
 | **NVDA** | Nvidia | $218.29 | 69 | RS Rating caiu para 69 |
 | **CTVA** | Corteva | $83.9 | 68 | RS Rating caiu para 68 |
 | **NWSA** | News Corp (Class A) | $29.44 | 67 | RS Rating caiu para 67 |
-| **SJM** | J.M. Smucker Company (The) | $121.14 | 66 | RS Rating caiu para 66 |
+| **SJM** | J.M. Smucker Company (The) | $121.14 | 65 | RS Rating caiu para 65 |
 | **WSM** | Williams-Sonoma, Inc. | $226.23 | 65 | fechou abaixo da SMA50, RS Rating caiu para 65 |
+| **WMB** | Williams Companies | $72.85 | 64 | RS Rating caiu para 64 |
 | **RTX** | RTX Corporation | $197.68 | 63 | fechou abaixo da SMA50, RS Rating caiu para 63 |
 | **BALL** | Ball Corporation | $59.9 | 62 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 62 |
-| **WMB** | Williams Companies | $72.85 | 62 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 62 |
 | **NSC** | Norfolk Southern | $320.27 | 59 | fechou abaixo da SMA50, RS Rating caiu para 59 |
 | **SBUX** | Starbucks | $98.74 | 56 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 56 |
 | **AMCR** | Amcor | $42.32 | 55 | fechou abaixo da SMA50, RS Rating caiu para 55 |
