@@ -1,11 +1,11 @@
 # Minervini S&P 500 Screen — 2026-09-11
 
-_Gerado em 2026-09-14T22:27:35.059485+00:00 · 504/504 tickers processados._
+_Gerado em 2026-09-15T22:25:31.124863+00:00 · 504/504 tickers processados._
 
 
-## 🟢 Saúde do mercado: CONFIRMED UPTREND
+## 🔴 Saúde do mercado: CORRECTION / CAUTION
 
-Mercado geral em tendência de alta confirmada — ambiente favorável a novas posições. (dias de distribuição nas últimas 25 sessões: 4)
+Índice abaixo de médias-chave — Minervini reduziria exposição e evitaria comprar agressivamente. (dias de distribuição nas últimas 25 sessões: 5)
 
 ## 🟢 BUY signals
 
@@ -35,7 +35,7 @@ Mercado geral em tendência de alta confirmada — ambiente favorável a novas p
 | **CSX** | CSX Corporation | $48.95 | 84 | fechou abaixo da SMA50 |
 | **WAB** | Wabtec | $283.22 | 83 | fechou abaixo da SMA50 |
 | **ALL** | Allstate | $253.71 | 81 | fechou abaixo da SMA50 |
-| **FDX** | FedEx | $311.99 | 80 | fechou abaixo da SMA50 |
+| **FDX** | FedEx | $310.77 | 80 | fechou abaixo da SMA50 |
 | **MS** | Morgan Stanley | $214.38 | 79 | fechou abaixo da SMA50 |
 | **WELL** | Welltower | $235.62 | 78 | fechou abaixo da SMA50 |
 | **USB** | U.S. Bancorp | $62.84 | 77 | fechou abaixo da SMA50 |
