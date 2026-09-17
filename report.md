@@ -1,67 +1,63 @@
-# Minervini S&P 500 Screen — 2026-09-16
+# Minervini S&P 500 Screen — 2026-09-17
 
-_Gerado em 2026-09-16T22:25:03.945165+00:00 · 504/504 tickers processados._
+_Gerado em 2026-09-17T22:24:01.644385+00:00 · 504/504 tickers processados._
 
 
-## 🔴 Saúde do mercado: CORRECTION / CAUTION
+## 🟡 Saúde do mercado: UNDER PRESSURE
 
-Índice abaixo de médias-chave — Minervini reduziria exposição e evitaria comprar agressivamente. (dias de distribuição nas últimas 25 sessões: 6)
+Tendência técnica OK mas 7 dias de distribuição nas últimas 25 sessões — sinal de venda institucional, cautela. (dias de distribuição nas últimas 25 sessões: 7)
 
 ## 🟢 BUY signals
 
 | Ticker | Nome | Preço | RS Rating | VCP Score | Cresc. EPS YoY | Cresc. Receita YoY | Passa fundamentais? | Sinal |
 |---|---|---|---|---|---|---|---|---|
-| **EBAY** | eBay Inc. | $109.17 | 74 | 0.0 | 51.1% | 14.8% | ✅ | BUY - new Trend Template qualifier |
-| **VRSN** | Verisign | $298.46 | 74 | 30.7 | 4.4% | 6.0% | ❌ | BUY - new Trend Template qualifier |
+| **INTC** | Intel | $108.8 | 98 | 13.0 | n/d | 25.4% | ✅ | BUY - new Trend Template qualifier |
 
 ## 🔴 SELL warnings
 
 | Ticker | Nome | Preço | RS Rating | Motivo |
 |---|---|---|---|---|
-| **STX** | Seagate Technology | $783.18 | 97 | fechou abaixo da SMA50 |
-| **TER** | Teradyne | $341.15 | 95 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **HUM** | Humana | $384.72 | 94 | fechou abaixo da SMA50 |
-| **STT** | State Street Corporation | $182.9 | 92 | fechou abaixo da SMA50 |
-| **FIX** | Comfort Systems USA | $1587.35 | 89 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **KEYS** | Keysight Technologies | $322.04 | 88 | fechou abaixo da SMA50 |
-| **STLD** | Steel Dynamics | $238.23 | 88 | fechou abaixo da SMA50 |
-| **BNY** | BNY Mellon | $153.47 | 86 | fechou abaixo da SMA50 |
-| **BEN** | Franklin Resources | $32.72 | 86 | fechou abaixo da SMA50 |
-| **ALL** | Allstate | $254.85 | 82 | fechou abaixo da SMA50 |
-| **BMY** | Bristol Myers Squibb | $63.6 | 81 | fechou abaixo da SMA50 |
-| **WELL** | Welltower | $234.5 | 81 | fechou abaixo da SMA50 |
-| **BAX** | Baxter International | $23.53 | 80 | fechou abaixo da SMA50 |
-| **NTRS** | Northern Trust | $176.64 | 80 | fechou abaixo da SMA50 |
-| **IVZ** | Invesco | $30.08 | 79 | fechou abaixo da SMA50 |
-| **WAB** | Wabtec | $276.37 | 79 | fechou abaixo da SMA50 |
-| **CAH** | Cardinal Health | $232.54 | 78 | fechou abaixo da SMA50 |
-| **FDX** | FedEx | $301.72 | 78 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **SWK** | Stanley Black & Decker | $89.05 | 78 | fechou abaixo da SMA50 |
-| **AMGN** | Amgen | $376.35 | 77 | fechou abaixo da SMA50 |
-| **JBHT** | J.B. Hunt | $236.73 | 77 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **FANG** | Diamondback Energy | $194.54 | 76 | fechou abaixo da SMA50 |
-| **IBKR** | Interactive Brokers | $86.74 | 76 | fechou abaixo da SMA50 |
-| **PWR** | Quanta Services | $619.28 | 76 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **AMP** | Ameriprise Financial | $540.86 | 74 | fechou abaixo da SMA50 |
-| **GM** | General Motors | $84.29 | 72 | fechou abaixo da SMA50 |
-| **ADI** | Analog Devices | $362.04 | 71 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **HSIC** | Henry Schein | $86.77 | 71 | fechou abaixo da SMA50 |
-| **USB** | U.S. Bancorp | $59.73 | 70 | fechou abaixo da SMA50 |
-| **NWS** | News Corp (Class B) | $33.44 | 69 | RS Rating caiu para 69 |
-| **C** | Citigroup | $132.95 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
-| **APH** | Amphenol | $77.26 | 67 | fechou abaixo da SMA50, RS Rating caiu para 67 |
-| **XYZ** | Block, Inc. | $76.63 | 67 | fechou abaixo da SMA50, RS Rating caiu para 67 |
-| **BALL** | Ball Corporation | $61.26 | 66 | fechou abaixo da SMA50, RS Rating caiu para 66 |
-| **EQIX** | Equinix | $1016.16 | 66 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 66 |
-| **MS** | Morgan Stanley | $202.42 | 65 | fechou abaixo da SMA50, RS Rating caiu para 65 |
-| **BAC** | Bank of America | $57.9 | 64 | fechou abaixo da SMA50, RS Rating caiu para 64 |
-| **JCI** | Johnson Controls | $140.47 | 64 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 64 |
-| **JPM** | JPMorgan Chase | $348.92 | 64 | fechou abaixo da SMA50, RS Rating caiu para 64 |
-| **CTVA** | Corteva | $81.01 | 63 | fechou abaixo da SMA50, RS Rating caiu para 63 |
-| **WMB** | Williams Companies | $70.9 | 60 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 60 |
-| **SBUX** | Starbucks | $97.34 | 56 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 56 |
-| **ETN** | Eaton Corporation | $397.8 | 55 | fechou abaixo da SMA50, RS Rating caiu para 55 |
-| **AMCR** | Amcor | $41.97 | 53 | fechou abaixo da SMA50, RS Rating caiu para 53 |
+| **STX** | Seagate Technology | $803.13 | 97 | fechou abaixo da SMA50 |
+| **TER** | Teradyne | $353.13 | 95 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **HUM** | Humana | $384.52 | 94 | fechou abaixo da SMA50 |
+| **STT** | State Street Corporation | $183.07 | 92 | fechou abaixo da SMA50 |
+| **FIX** | Comfort Systems USA | $1573.96 | 87 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **BEN** | Franklin Resources | $33.07 | 86 | fechou abaixo da SMA50 |
+| **BNY** | BNY Mellon | $153.02 | 85 | fechou abaixo da SMA50 |
+| **ABNB** | Airbnb | $165.93 | 84 | fechou abaixo da SMA50 |
+| **BMY** | Bristol Myers Squibb | $62.84 | 81 | fechou abaixo da SMA50 |
+| **GRMN** | Garmin | $275.35 | 81 | fechou abaixo da SMA50 |
+| **NTRS** | Northern Trust | $176.94 | 81 | fechou abaixo da SMA50 |
+| **ALL** | Allstate | $252.21 | 80 | fechou abaixo da SMA50 |
+| **IVZ** | Invesco | $30.22 | 80 | fechou abaixo da SMA50 |
+| **WELL** | Welltower | $232.26 | 80 | fechou abaixo da SMA50 |
+| **FDX** | FedEx | $305.88 | 79 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **WAB** | Wabtec | $278.82 | 79 | fechou abaixo da SMA50 |
+| **FANG** | Diamondback Energy | $196.94 | 78 | fechou abaixo da SMA50 |
+| **IBKR** | Interactive Brokers | $88.38 | 78 | fechou abaixo da SMA50 |
+| **AMGN** | Amgen | $379.78 | 77 | fechou abaixo da SMA50 |
+| **BAX** | Baxter International | $23.02 | 76 | fechou abaixo da SMA50 |
+| **JBHT** | J.B. Hunt | $236.8 | 76 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **AMP** | Ameriprise Financial | $545.7 | 75 | fechou abaixo da SMA50 |
+| **PWR** | Quanta Services | $616.54 | 75 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **SWK** | Stanley Black & Decker | $89.12 | 73 | fechou abaixo da SMA50 |
+| **CAH** | Cardinal Health | $226.34 | 72 | fechou abaixo da SMA50 |
+| **USB** | U.S. Bancorp | $60.25 | 70 | fechou abaixo da SMA50 |
+| **APH** | Amphenol | $78.37 | 69 | fechou abaixo da SMA50, RS Rating caiu para 69 |
+| **EQIX** | Equinix | $1025.94 | 69 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 69 |
+| **ADI** | Analog Devices | $362.65 | 68 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 68 |
+| **HSIC** | Henry Schein | $85.04 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
+| **C** | Citigroup | $132.7 | 67 | fechou abaixo da SMA50, RS Rating caiu para 67 |
+| **JPM** | JPMorgan Chase | $349.31 | 67 | fechou abaixo da SMA50, RS Rating caiu para 67 |
+| **MS** | Morgan Stanley | $203.52 | 67 | fechou abaixo da SMA50, RS Rating caiu para 67 |
+| **BALL** | Ball Corporation | $60.75 | 65 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 65 |
+| **VZ** | Verizon | $48.33 | 65 | RS Rating caiu para 65 |
+| **BAC** | Bank of America | $58.18 | 64 | fechou abaixo da SMA50, RS Rating caiu para 64 |
+| **XYZ** | Block, Inc. | $76.47 | 62 | fechou abaixo da SMA50, RS Rating caiu para 62 |
+| **CTVA** | Corteva | $81.53 | 62 | fechou abaixo da SMA50, RS Rating caiu para 62 |
+| **JCI** | Johnson Controls | $141.06 | 62 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **ETN** | Eaton Corporation | $409.46 | 59 | fechou abaixo da SMA50, RS Rating caiu para 59 |
+| **WMB** | Williams Companies | $71.81 | 59 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 59 |
 
 ## 👀 Watchlist (a formar base, VCP em contração)
 
@@ -71,7 +67,7 @@ _Vazio._
 
 | Ticker | Nome | Preço | RS Rating | VCP Score | Trend Template completo? | Fundamentais |
 |---|---|---|---|---|---|---|
-| **GME** | GameStop Corp. | $21.98 | 30 | 0.0 | ❌ | ✅ |
+| **GME** | GameStop Corp. | $22.77 | 36 | 0.0 | ❌ | ✅ |
 
 ---
 _Isto é uma ferramenta de screening baseada numa metodologia pública (SEPA / Trend Template de Mark Minervini). Não é aconselhamento financeiro. Dados: Yahoo Finance via yfinance._
