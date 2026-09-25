@@ -1,192 +1,749 @@
 {
-  "generated_at_utc": "2026-09-23T22:24:58.643511+00:00",
-  "as_of_trading_date": "2026-09-23",
+  "generated_at_utc": "2026-09-25T00:33:45.062351+00:00",
+  "as_of_trading_date": "2026-09-24",
   "universe_size": 504,
-  "downloaded_ok": 504,
-  "download_failed": [],
+  "downloaded_ok": 503,
+  "download_failed": [
+    "KO"
+  ],
   "market_health": {
     "status": "UNDER PRESSURE",
-    "detail": "Tend\u00eancia t\u00e9cnica OK mas 5 dias de distribui\u00e7\u00e3o nas \u00faltimas 25 sess\u00f5es \u2014 sinal de venda institucional, cautela.",
-    "distribution_days": 5,
-    "index_close": 7706.03,
+    "detail": "Tend\u00eancia t\u00e9cnica OK mas 6 dias de distribui\u00e7\u00e3o nas \u00faltimas 25 sess\u00f5es \u2014 sinal de venda institucional, cautela.",
+    "distribution_days": 6,
+    "index_close": 7704.13,
     "index_above_50sma": true,
     "index_above_150_200sma": true
   },
-  "buy_signals": [
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments",
-      "sector": "Information Technology",
-      "price": 272.62,
-      "rs_rating": 86,
-      "vcp_score": 3.2,
-      "pct_below_52w_high": 18.0,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true,
-      "eps_growth_yoy": 52.9,
-      "revenue_growth_yoy": 22.8,
-      "roe": 35.2,
-      "profit_margin": 31.1,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "sector": "Health Care",
-      "price": 406.09,
-      "rs_rating": 84,
-      "vcp_score": 17.3,
-      "pct_below_52w_high": 9.2,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true,
-      "eps_growth_yoy": 65.9,
-      "revenue_growth_yoy": 9.5,
-      "roe": 91.5,
-      "profit_margin": 23.0,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "WAB",
-      "name": "Wabtec",
-      "sector": "Industrials",
-      "price": 292.22,
-      "rs_rating": 83,
-      "vcp_score": 30.0,
-      "pct_below_52w_high": 4.6,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": true,
-      "eps_growth_yoy": 17.6,
-      "revenue_growth_yoy": 17.5,
-      "roe": 11.6,
-      "profit_margin": 10.6,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "IEX",
-      "name": "IDEX Corporation",
-      "sector": "Industrials",
-      "price": 229.67,
-      "rs_rating": 78,
-      "vcp_score": 23.7,
-      "pct_below_52w_high": 5.8,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false,
-      "eps_growth_yoy": 9.0,
-      "revenue_growth_yoy": 6.4,
-      "roe": 13.0,
-      "profit_margin": 14.5,
-      "meets_growth_bar": false
-    },
-    {
-      "ticker": "AME",
-      "name": "Ametek",
-      "sector": "Industrials",
-      "price": 246.45,
-      "rs_rating": 72,
-      "vcp_score": 10.9,
-      "pct_below_52w_high": 5.5,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false,
-      "eps_growth_yoy": 13.5,
-      "revenue_growth_yoy": 15.0,
-      "roe": 14.6,
-      "profit_margin": 20.0,
-      "meets_growth_bar": true
-    },
-    {
-      "ticker": "FAST",
-      "name": "Fastenal",
-      "sector": "Industrials",
-      "price": 50.99,
-      "rs_rating": 70,
-      "vcp_score": 24.1,
-      "pct_below_52w_high": 3.6,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false,
-      "eps_growth_yoy": 15.9,
-      "revenue_growth_yoy": 14.7,
-      "roe": 34.3,
-      "profit_margin": 15.5,
-      "meets_growth_bar": false
-    },
-    {
-      "ticker": "JCI",
-      "name": "Johnson Controls",
-      "sector": "Industrials",
-      "price": 145.9,
-      "rs_rating": 70,
-      "vcp_score": 23.9,
-      "pct_below_52w_high": 6.8,
-      "signal": "BUY - new Trend Template qualifier",
-      "strong_rs": false,
-      "eps_growth_yoy": 6.8,
-      "revenue_growth_yoy": 9.3,
-      "roe": 14.3,
-      "profit_margin": 14.3,
-      "meets_growth_bar": false
-    }
-  ],
+  "buy_signals": [],
   "sell_signals": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 99,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 99,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 99,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 98,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 98,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 98,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 98,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 98,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 97,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 97,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 97,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 97,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 96,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 96,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 96,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 96,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 96,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 95,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 95,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 95,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 95,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 95,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 94,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
     {
       "ticker": "CNC",
       "name": "Centene Corporation",
       "sector": "Health Care",
-      "price": 62.08,
+      "price": NaN,
       "rs_rating": 94,
-      "vcp_score": 2.1,
-      "pct_below_52w_high": 10.8,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 94,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "HUM",
       "name": "Humana",
       "sector": "Health Care",
-      "price": 374.78,
+      "price": NaN,
       "rs_rating": 94,
-      "vcp_score": 25.0,
-      "pct_below_52w_high": 12.6,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 94,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 94,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 93,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 93,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 93,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "price": NaN,
+      "rs_rating": 93,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 92,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 92,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "NUE",
       "name": "Nucor",
       "sector": "Materials",
-      "price": 246.98,
+      "price": NaN,
       "rs_rating": 92,
-      "vcp_score": 14.7,
-      "pct_below_52w_high": 11.8,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 91,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 90,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "price": NaN,
+      "rs_rating": 90,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 90,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 90,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "BBY",
+      "name": "Best Buy",
+      "sector": "Consumer Discretionary",
+      "price": NaN,
+      "rs_rating": 89,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "sector": "Materials",
+      "price": NaN,
+      "rs_rating": 89,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "STT",
       "name": "State Street Corporation",
       "sector": "Financials",
-      "price": 179.95,
+      "price": NaN,
       "rs_rating": 89,
-      "vcp_score": 2.8,
-      "pct_below_52w_high": 8.2,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "WST",
+      "name": "West Pharmaceutical Services",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 89,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "FIX",
       "name": "Comfort Systems USA",
       "sector": "Industrials",
-      "price": 1625.9,
+      "price": NaN,
       "rs_rating": 88,
-      "vcp_score": 32.6,
-      "pct_below_52w_high": 21.5,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "EXPD",
+      "name": "Expeditors International",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 88,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 87,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 87,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 87,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
@@ -198,153 +755,460 @@
       "ticker": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "price": 234.29,
+      "price": NaN,
       "rs_rating": 87,
-      "vcp_score": 17.3,
-      "pct_below_52w_high": 18.7,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "CF",
       "name": "CF Industries",
       "sector": "Materials",
-      "price": 120.64,
+      "price": NaN,
       "rs_rating": 86,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 14.8,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
-      "ticker": "BEN",
-      "name": "Franklin Resources",
-      "sector": "Financials",
-      "price": 32.71,
-      "rs_rating": 85,
-      "vcp_score": 12.3,
-      "pct_below_52w_high": 9.8,
+      "ticker": "INCY",
+      "name": "Incyte",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 86,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
-      "ticker": "IVZ",
-      "name": "Invesco",
-      "sector": "Financials",
-      "price": 30.74,
-      "rs_rating": 85,
-      "vcp_score": 12.0,
-      "pct_below_52w_high": 8.7,
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 86,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 86,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 85,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "GRMN",
+      "name": "Garmin",
+      "sector": "Consumer Discretionary",
+      "price": NaN,
+      "rs_rating": 85,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "IFF",
+      "name": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "price": NaN,
+      "rs_rating": 85,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 84,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 84,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "CPAY",
       "name": "Corpay",
       "sector": "Financials",
-      "price": 395.16,
+      "price": NaN,
       "rs_rating": 84,
-      "vcp_score": 39.7,
-      "pct_below_52w_high": 7.6,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 84,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "IVZ",
+      "name": "Invesco",
+      "sector": "Financials",
+      "price": NaN,
+      "rs_rating": 84,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "ADM",
       "name": "Archer Daniels Midland",
       "sector": "Consumer Staples",
-      "price": 82.15,
+      "price": NaN,
       "rs_rating": 83,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 7.4,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
+      "price": NaN,
+      "rs_rating": 83,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "PFG",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
+      "price": NaN,
+      "rs_rating": 83,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "SLB",
       "name": "Schlumberger",
       "sector": "Energy",
-      "price": 51.87,
+      "price": NaN,
       "rs_rating": 83,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 13.8,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "WAB",
+      "name": "Wabtec",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 83,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 82,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "sector": "Financials",
+      "price": NaN,
+      "rs_rating": 82,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "NDSN",
+      "name": "Nordson Corporation",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 82,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "BDX",
+      "name": "Becton Dickinson",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 81,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "DGX",
       "name": "Quest Diagnostics",
       "sector": "Health Care",
-      "price": 233.0,
+      "price": NaN,
       "rs_rating": 81,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 6.4,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "ADI",
       "name": "Analog Devices",
       "sector": "Information Technology",
-      "price": 385.23,
+      "price": NaN,
       "rs_rating": 80,
-      "vcp_score": 5.1,
-      "pct_below_52w_high": 13.3,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "SMA50 cruzou abaixo da SMA150/200"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "BNY",
       "name": "BNY Mellon",
       "sector": "Financials",
-      "price": 149.51,
+      "price": NaN,
       "rs_rating": 80,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 9.8,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 80,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "TRV",
       "name": "Travelers Companies (The)",
       "sector": "Financials",
-      "price": 360.39,
+      "price": NaN,
       "rs_rating": 80,
-      "vcp_score": 24.2,
-      "pct_below_52w_high": 9.3,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 79,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 78,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "IEX",
+      "name": "IDEX Corporation",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 78,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "PWR",
       "name": "Quanta Services",
       "sector": "Industrials",
-      "price": 634.9,
+      "price": NaN,
       "rs_rating": 78,
-      "vcp_score": 28.7,
-      "pct_below_52w_high": 19.5,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
@@ -356,39 +1220,104 @@
       "ticker": "OXY",
       "name": "Occidental Petroleum",
       "sector": "Energy",
-      "price": 57.36,
+      "price": NaN,
       "rs_rating": 77,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 14.2,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "SJM",
+      "name": "J.M. Smucker Company (The)",
+      "sector": "Consumer Staples",
+      "price": NaN,
+      "rs_rating": 77,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "BMY",
       "name": "Bristol Myers Squibb",
       "sector": "Health Care",
-      "price": 61.15,
+      "price": NaN,
       "rs_rating": 76,
-      "vcp_score": 27.9,
-      "pct_below_52w_high": 10.9,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 76,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 76,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "JBHT",
       "name": "J.B. Hunt",
       "sector": "Industrials",
-      "price": 234.63,
+      "price": NaN,
       "rs_rating": 75,
-      "vcp_score": 12.8,
-      "pct_below_52w_high": 21.6,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 74,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
         "pre\u00e7o abaixo da SMA150/200"
       ]
     },
@@ -396,92 +1325,210 @@
       "ticker": "EOG",
       "name": "EOG Resources",
       "sector": "Energy",
-      "price": 141.84,
+      "price": NaN,
       "rs_rating": 74,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 8.0,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "NTRS",
       "name": "Northern Trust",
       "sector": "Financials",
-      "price": 173.99,
+      "price": NaN,
       "rs_rating": 74,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 10.7,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
-      "ticker": "OKE",
-      "name": "Oneok",
-      "sector": "Energy",
-      "price": 90.54,
-      "rs_rating": 72,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 9.3,
+      "ticker": "VRSN",
+      "name": "Verisign",
+      "sector": "Information Technology",
+      "price": NaN,
+      "rs_rating": 74,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International",
+      "sector": "Consumer Staples",
+      "price": NaN,
+      "rs_rating": 73,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "sector": "Health Care",
+      "price": NaN,
+      "rs_rating": 73,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "AME",
+      "name": "Ametek",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 72,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "LH",
       "name": "Labcorp",
       "sector": "Health Care",
-      "price": 303.98,
-      "rs_rating": 71,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 10.9,
+      "price": NaN,
+      "rs_rating": 72,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "OKE",
+      "name": "Oneok",
+      "sector": "Energy",
+      "price": NaN,
+      "rs_rating": 72,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "sector": "Consumer Discretionary",
+      "price": NaN,
+      "rs_rating": 71,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "EQIX",
       "name": "Equinix",
       "sector": "Real Estate",
-      "price": 1037.66,
+      "price": NaN,
       "rs_rating": 70,
-      "vcp_score": 28.1,
-      "pct_below_52w_high": 7.2,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50"
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 70,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
+      ]
+    },
+    {
+      "ticker": "JCI",
+      "name": "Johnson Controls",
+      "sector": "Industrials",
+      "price": NaN,
+      "rs_rating": 70,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200"
       ]
     },
     {
       "ticker": "AIZ",
       "name": "Assurant",
       "sector": "Financials",
-      "price": 266.97,
-      "rs_rating": 68,
-      "vcp_score": 0.1,
-      "pct_below_52w_high": 11.9,
+      "price": NaN,
+      "rs_rating": 69,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 68"
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
+        "RS Rating caiu para 69"
       ]
     },
     {
       "ticker": "FANG",
       "name": "Diamondback Energy",
       "sector": "Energy",
-      "price": 185.65,
+      "price": NaN,
       "rs_rating": 67,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 14.4,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
         "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 67"
       ]
@@ -490,13 +1537,14 @@
       "ticker": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "price": 337.83,
+      "price": NaN,
       "rs_rating": 66,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 17.2,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
         "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 66"
       ]
@@ -505,13 +1553,15 @@
       "ticker": "CAH",
       "name": "Cardinal Health",
       "sector": "Health Care",
-      "price": 221.27,
+      "price": NaN,
       "rs_rating": 66,
-      "vcp_score": 13.4,
-      "pct_below_52w_high": 14.3,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 66"
       ]
     },
@@ -519,13 +1569,15 @@
       "ticker": "HSIC",
       "name": "Henry Schein",
       "sector": "Health Care",
-      "price": 85.05,
+      "price": NaN,
       "rs_rating": 65,
-      "vcp_score": 6.0,
-      "pct_below_52w_high": 7.7,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 65"
       ]
     },
@@ -533,55 +1585,47 @@
       "ticker": "ABNB",
       "name": "Airbnb",
       "sector": "Consumer Discretionary",
-      "price": 149.58,
-      "rs_rating": 63,
-      "vcp_score": 4.4,
-      "pct_below_52w_high": 22.7,
+      "price": NaN,
+      "rs_rating": 64,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 63"
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
+        "RS Rating caiu para 64"
       ]
     },
     {
       "ticker": "C",
       "name": "Citigroup",
       "sector": "Financials",
-      "price": 131.93,
+      "price": NaN,
       "rs_rating": 63,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 10.4,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 63"
-      ]
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "sector": "Financials",
-      "price": 198.39,
-      "rs_rating": 60,
-      "vcp_score": 4.2,
-      "pct_below_52w_high": 14.1,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
-        "RS Rating caiu para 60"
       ]
     },
     {
       "ticker": "NWSA",
       "name": "News Corp (Class A)",
       "sector": "Communication Services",
-      "price": 28.12,
+      "price": NaN,
       "rs_rating": 60,
-      "vcp_score": 4.7,
-      "pct_below_52w_high": 10.9,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 60"
       ]
     },
@@ -589,13 +1633,14 @@
       "ticker": "CTVA",
       "name": "Corteva",
       "sector": "Materials",
-      "price": 80.42,
+      "price": NaN,
       "rs_rating": 59,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 11.5,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
         "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 59"
       ]
@@ -604,13 +1649,14 @@
       "ticker": "VZ",
       "name": "Verizon",
       "sector": "Communication Services",
-      "price": 46.52,
+      "price": NaN,
       "rs_rating": 59,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 10.0,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
         "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 59"
       ]
@@ -619,13 +1665,15 @@
       "ticker": "NWS",
       "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "price": 31.22,
+      "price": NaN,
       "rs_rating": 55,
-      "vcp_score": 25.6,
-      "pct_below_52w_high": 12.4,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 55"
       ]
     },
@@ -633,28 +1681,31 @@
       "ticker": "ALL",
       "name": "Allstate",
       "sector": "Financials",
-      "price": 225.66,
-      "rs_rating": 52,
-      "vcp_score": 4.6,
-      "pct_below_52w_high": 18.3,
+      "price": NaN,
+      "rs_rating": 53,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
         "pre\u00e7o abaixo da SMA150/200",
-        "RS Rating caiu para 52"
+        "RS Rating caiu para 53"
       ]
     },
     {
       "ticker": "BAC",
       "name": "Bank of America",
       "sector": "Financials",
-      "price": 56.0,
+      "price": NaN,
       "rs_rating": 50,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 13.7,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
+        "SMA50 cruzou abaixo da SMA150/200",
+        "pre\u00e7o abaixo da SMA150/200",
         "RS Rating caiu para 50"
       ]
     }
@@ -665,19 +1716,19 @@
       "ticker": "GME",
       "name": "GameStop Corp.",
       "sector": "Consumer Discretionary",
-      "price": 24.2,
+      "price": NaN,
       "rs_rating": 58,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 13.9,
+      "vcp_score": null,
+      "pct_below_52w_high": NaN,
       "passes_trend_template": false,
       "criteria": {
-        "acima_sma150_e_sma200": true,
+        "acima_sma150_e_sma200": false,
         "sma150_acima_sma200": false,
         "sma200_em_alta_1m": false,
         "sma50_acima_sma150_e_sma200": false,
-        "fecho_acima_sma50": true,
-        "30pct_acima_minimo_52s": true,
-        "dentro_25pct_do_maximo_52s": true
+        "fecho_acima_sma50": false,
+        "30pct_acima_minimo_52s": false,
+        "dentro_25pct_do_maximo_52s": false
       },
       "breakout_today": false,
       "eps_growth_yoy": 77.2,
