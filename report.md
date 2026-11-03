@@ -1,19 +1,19 @@
 # Minervini S&P 500 Screen — 2026-10-30
 
-_Gerado em 2026-10-31T01:35:54.572070+00:00 · 503/504 tickers processados, 1 falharam._
+_Gerado em 2026-11-03T03:29:18.589984+00:00 · 503/504 tickers processados, 1 falharam._
 
 
 ## 🔴 Saúde do mercado: CORRECTION / CAUTION
 
-Índice abaixo de médias-chave — Minervini reduziria exposição e evitaria comprar agressivamente. (dias de distribuição nas últimas 25 sessões: 5)
+Índice abaixo de médias-chave — Minervini reduziria exposição e evitaria comprar agressivamente. (dias de distribuição nas últimas 25 sessões: 6)
 
 ## 🟢 BUY signals
 
 | Ticker | Nome | Preço | RS Rating | VCP Score | Cresc. EPS YoY | Cresc. Receita YoY | Passa fundamentais? | Sinal |
 |---|---|---|---|---|---|---|---|---|
-| **LLY** | Lilly (Eli) | $1417.54 | 95 | 0.0 | 15.6% | 38.6% | ✅ | BUY - breakout with volume |
-| **XOM** | ExxonMobil | $187.25 | 93 | 1.2 | 105.1% | 44.1% | ✅ | BUY - breakout with volume |
-| **MO** | Altria | $78.03 | 86 | 0.0 | 6.0% | 16.8% | ✅ | BUY - breakout with volume |
+| **LLY** | Lilly (Eli) | $1417.54 | 95 | 0.0 | 15.5% | 38.6% | ✅ | BUY - breakout with volume |
+| **XOM** | ExxonMobil | $187.25 | 93 | 1.2 | 104.2% | 32.6% | ✅ | BUY - breakout with volume |
+| **MO** | Altria | $78.03 | 86 | 0.0 | 6.0% | 3.6% | ❌ | BUY - breakout with volume |
 | **KDP** | Keurig Dr Pepper | $35.84 | 86 | 9.2 | -74.0% | 75.6% | ✅ | BUY - breakout with volume |
 | **GPN** | Global Payments | $96.84 | 85 | 0.0 | -94.6% | 68.6% | ✅ | BUY - breakout with volume |
 | **VRTX** | Vertex Pharmaceuticals | $558.88 | 84 | 0.0 | 6.5% | 12.5% | ❌ | BUY - breakout with volume |
