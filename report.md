@@ -1,6 +1,6 @@
-# Minervini S&P 500 Screen — 2026-10-30
+# Minervini S&P 500 Screen — 2026-11-03
 
-_Gerado em 2026-11-03T03:29:18.589984+00:00 · 503/504 tickers processados, 1 falharam._
+_Gerado em 2026-11-04T02:19:17.549726+00:00 · 502/504 tickers processados, 2 falharam._
 
 
 ## 🔴 Saúde do mercado: CORRECTION / CAUTION
@@ -9,68 +9,143 @@ _Gerado em 2026-11-03T03:29:18.589984+00:00 · 503/504 tickers processados, 1 fa
 
 ## 🟢 BUY signals
 
-| Ticker | Nome | Preço | RS Rating | VCP Score | Cresc. EPS YoY | Cresc. Receita YoY | Passa fundamentais? | Sinal |
-|---|---|---|---|---|---|---|---|---|
-| **LLY** | Lilly (Eli) | $1417.54 | 95 | 0.0 | 15.5% | 38.6% | ✅ | BUY - breakout with volume |
-| **XOM** | ExxonMobil | $187.25 | 93 | 1.2 | 104.2% | 32.6% | ✅ | BUY - breakout with volume |
-| **MO** | Altria | $78.03 | 86 | 0.0 | 6.0% | 3.6% | ❌ | BUY - breakout with volume |
-| **KDP** | Keurig Dr Pepper | $35.84 | 86 | 9.2 | -74.0% | 75.6% | ✅ | BUY - breakout with volume |
-| **GPN** | Global Payments | $96.84 | 85 | 0.0 | -94.6% | 68.6% | ✅ | BUY - breakout with volume |
-| **VRTX** | Vertex Pharmaceuticals | $558.88 | 84 | 0.0 | 6.5% | 12.5% | ❌ | BUY - breakout with volume |
-| **DE** | Deere & Company | $675.48 | 83 | 15.5 | 7.0% | 4.9% | ❌ | BUY - new Trend Template qualifier |
-| **NDAQ** | Nasdaq, Inc. | $106.23 | 75 | 0.0 | 27.7% | 12.6% | ✅ | BUY - new Trend Template qualifier |
-| **APD** | Air Products | $316.43 | 73 | 18.7 | n/d | 4.6% | ❌ | BUY - new Trend Template qualifier |
-| **DRI** | Darden Restaurants | $220.17 | 72 | 17.8 | -9.5% | 5.1% | ❌ | BUY - new Trend Template qualifier |
+_Nenhum sinal de compra hoje._
 
 ## 🔴 SELL warnings
 
 | Ticker | Nome | Preço | RS Rating | Motivo |
 |---|---|---|---|---|
-| **HPE** | Hewlett Packard Enterprise | $55.09 | 98 | fechou abaixo da SMA50 |
-| **MU** | Micron Technology | $884.74 | 98 | fechou abaixo da SMA50 |
-| **ILMN** | Illumina, Inc. | $235.99 | 97 | fechou abaixo da SMA50 |
-| **MRVL** | Marvell Technology | $196.4 | 96 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **PANW** | Palo Alto Networks | $365.87 | 96 | fechou abaixo da SMA50 |
-| **AMD** | Advanced Micro Devices | $504.8 | 95 | fechou abaixo da SMA50 |
-| **NTAP** | NetApp | $199.18 | 95 | fechou abaixo da SMA50 |
-| **TWLO** | Twilio | $205.03 | 93 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **DDOG** | Datadog | $235.27 | 91 | fechou abaixo da SMA50 |
-| **TGT** | Target Corporation | $154.38 | 90 | fechou abaixo da SMA50 |
-| **TXN** | Texas Instruments | $300.84 | 90 | SMA50 cruzou abaixo da SMA150/200 |
-| **ZBRA** | Zebra Technologies | $361.26 | 89 | fechou abaixo da SMA50 |
-| **FTNT** | Fortinet | $136.08 | 88 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **CPAY** | Corpay | $400.94 | 86 | fechou abaixo da SMA50 |
-| **HPQ** | HP Inc. | $28.78 | 82 | fechou abaixo da SMA50 |
-| **ABNB** | Airbnb | $164.39 | 77 | fechou abaixo da SMA50 |
-| **NDSN** | Nordson Corporation | $322.67 | 76 | fechou abaixo da SMA50 |
-| **PLTR** | Palantir Technologies | $184.11 | 71 | fechou abaixo da SMA50 |
-| **PFG** | Principal Financial Group | $111.63 | 70 | fechou abaixo da SMA50 |
-| **CSCO** | Cisco | $104.51 | 69 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 69 |
-| **EMR** | Emerson Electric | $164.94 | 69 | RS Rating caiu para 69 |
-| **BMY** | Bristol Myers Squibb | $62.48 | 68 | RS Rating caiu para 68 |
-| **MSFT** | Microsoft | $521.91 | 68 | RS Rating caiu para 68 |
-| **GRMN** | Garmin | $272.67 | 66 | fechou abaixo da SMA50, RS Rating caiu para 66 |
-| **JCI** | Johnson Controls | $149.03 | 63 | RS Rating caiu para 63 |
-| **WAB** | Wabtec | $279.6 | 63 | fechou abaixo da SMA50, RS Rating caiu para 63 |
-| **DAL** | Delta Air Lines | $80.15 | 62 | fechou abaixo da SMA50, RS Rating caiu para 62 |
-| **ROST** | Ross Stores | $228.28 | 62 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 62 |
-| **CDW** | CDW Corporation | $153.79 | 57 | RS Rating caiu para 57 |
-| **NWSA** | News Corp (Class A) | $29.12 | 56 | fechou abaixo da SMA50, RS Rating caiu para 56 |
-| **BAX** | Baxter International | $23.0 | 55 | fechou abaixo da SMA50, RS Rating caiu para 55 |
-| **AME** | Ametek | $241.12 | 48 | fechou abaixo da SMA50, RS Rating caiu para 48 |
-| **FFIV** | F5, Inc. | $338.34 | 47 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 47 |
+| **MRNA** | Moderna | $nan | 99 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CRWD** | CrowdStrike | $nan | 98 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MPC** | Marathon Petroleum | $nan | 98 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MU** | Micron Technology | $nan | 98 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **PSX** | Phillips 66 | $nan | 98 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **VLO** | Valero Energy | $nan | 98 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **APA** | APA Corporation | $nan | 97 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CRL** | Charles River Laboratories | $nan | 97 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **HPE** | Hewlett Packard Enterprise | $nan | 97 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **HUM** | Humana | $nan | 97 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **PANW** | Palo Alto Networks | $nan | 97 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ILMN** | Illumina, Inc. | $nan | 96 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **NTAP** | NetApp | $nan | 96 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **RVTY** | Revvity | $nan | 96 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **VEEV** | Veeva Systems | $nan | 96 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **AMD** | Advanced Micro Devices | $nan | 95 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **COP** | ConocoPhillips | $nan | 95 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **P** | Everpure | $nan | 95 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **FDS** | FactSet | $nan | 95 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **LLY** | Lilly (Eli) | $nan | 95 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **BBY** | Best Buy | $nan | 94 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **BIIB** | Biogen | $nan | 94 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **TRGP** | Targa Resources | $nan | 94 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **WST** | West Pharmaceutical Services | $nan | 94 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **AMGN** | Amgen | $nan | 93 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CNC** | Centene Corporation | $nan | 93 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MRVL** | Marvell Technology | $nan | 93 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MRK** | Merck & Co. | $nan | 93 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **TGT** | Target Corporation | $nan | 93 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **NUE** | Nucor | $nan | 92 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **TWLO** | Twilio | $nan | 92 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **VTRS** | Viatris | $nan | 92 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **EOG** | EOG Resources | $nan | 91 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **GPN** | Global Payments | $nan | 91 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **SWK** | Stanley Black & Decker | $nan | 91 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **TXN** | Texas Instruments | $nan | 91 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ABBV** | AbbVie | $nan | 90 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CVX** | Chevron Corporation | $nan | 90 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **XOM** | ExxonMobil | $nan | 90 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **HST** | Host Hotels & Resorts | $nan | 90 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **BDX** | Becton Dickinson | $nan | 89 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **EXPD** | Expeditors International | $nan | 89 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **KDP** | Keurig Dr Pepper | $nan | 89 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ZBRA** | Zebra Technologies | $nan | 89 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **A** | Agilent Technologies | $nan | 88 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CPAY** | Corpay | $nan | 88 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **IFF** | International Flavors & Fragrances | $nan | 88 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **LH** | Labcorp | $nan | 88 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **SWKS** | Skyworks Solutions | $nan | 88 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ADI** | Analog Devices | $nan | 87 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **DGX** | Quest Diagnostics | $nan | 87 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **TMO** | Thermo Fisher Scientific | $nan | 87 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **TRV** | Travelers Companies (The) | $nan | 87 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ABNB** | Airbnb | $nan | 86 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **SJM** | J.M. Smucker Company (The) | $nan | 86 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **V** | Visa Inc. | $nan | 86 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **KO** | Coca-Cola Company (The) | $nan | 85 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **EBAY** | eBay Inc. | $nan | 85 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **OXY** | Occidental Petroleum | $nan | 85 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **PM** | Philip Morris International | $nan | 85 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ADP** | Automatic Data Processing | $nan | 84 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **DDOG** | Datadog | $nan | 84 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **IQV** | IQVIA | $nan | 84 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **PFE** | Pfizer | $nan | 84 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **URI** | United Rentals | $nan | 84 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MO** | Altria | $nan | 83 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **EG** | Everest Group | $nan | 83 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **VRTX** | Vertex Pharmaceuticals | $nan | 83 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **WSM** | Williams-Sonoma, Inc. | $nan | 83 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **DE** | Deere & Company | $nan | 82 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MTD** | Mettler Toledo | $nan | 82 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **NDAQ** | Nasdaq, Inc. | $nan | 82 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **DVN** | Devon Energy | $nan | 81 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **HPQ** | HP Inc. | $nan | 81 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MA** | Mastercard | $nan | 81 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **WAT** | Waters Corporation | $nan | 81 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **FTNT** | Fortinet | $nan | 80 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MET** | MetLife | $nan | 80 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ALL** | Allstate | $nan | 79 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CSX** | CSX Corporation | $nan | 79 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **JNJ** | Johnson & Johnson | $nan | 79 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **UNP** | Union Pacific Corporation | $nan | 79 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **GWW** | W. W. Grainger | $nan | 79 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CAH** | Cardinal Health | $nan | 78 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **AIZ** | Assurant | $nan | 77 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MNST** | Monster Beverage | $nan | 77 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **STLD** | Steel Dynamics | $nan | 77 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **AAPL** | Apple Inc. | $nan | 76 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **NDSN** | Nordson Corporation | $nan | 76 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **OKE** | Oneok | $nan | 76 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CB** | Chubb Limited | $nan | 74 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **FANG** | Diamondback Energy | $nan | 74 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **ELV** | Elevance Health | $nan | 74 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **VRSN** | Verisign | $nan | 74 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **WELL** | Welltower | $nan | 74 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **FAST** | Fastenal | $nan | 73 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **MSI** | Motorola Solutions | $nan | 73 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **BAX** | Baxter International | $nan | 72 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **PKG** | Packaging Corporation of America | $nan | 72 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **BMY** | Bristol Myers Squibb | $nan | 71 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **CHD** | Church & Dwight | $nan | 71 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **PFG** | Principal Financial Group | $nan | 71 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **DRI** | Darden Restaurants | $nan | 70 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **UNH** | UnitedHealth Group | $nan | 70 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **GRMN** | Garmin | $nan | 69 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 69 |
+| **IEX** | IDEX Corporation | $nan | 69 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 69 |
+| **APD** | Air Products | $nan | 68 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 68 |
+| **WAB** | Wabtec | $nan | 68 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 68 |
+| **DAL** | Delta Air Lines | $nan | 67 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 67 |
+| **TECH** | Bio-Techne | $nan | 64 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 64 |
+| **SLB** | Schlumberger | $nan | 64 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 64 |
+| **EMR** | Emerson Electric | $nan | 62 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **KMI** | Kinder Morgan | $nan | 62 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **PLTR** | Palantir Technologies | $nan | 62 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **MSFT** | Microsoft | $nan | 60 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 60 |
+| **NWSA** | News Corp (Class A) | $nan | 60 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 60 |
+| **ROST** | Ross Stores | $nan | 59 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 59 |
+| **CDW** | CDW Corporation | $nan | 56 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 56 |
+| **CSCO** | Cisco | $nan | 55 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 55 |
+| **JCI** | Johnson Controls | $nan | 54 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 54 |
+| **FFIV** | F5, Inc. | $nan | 34 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 34 |
 
 ## 👀 Watchlist (a formar base, VCP em contração)
 
-| Ticker | Nome | Preço | RS Rating | VCP Score |
-|---|---|---|---|---|
-| SWKS | Skyworks Solutions | $87.58 | 92 | 64.8 |
+_Vazio._
 
 ## 📌 Tickers extra (fora do S&P 500) — status diário
 
 | Ticker | Nome | Preço | RS Rating | VCP Score | Trend Template completo? | Fundamentais |
 |---|---|---|---|---|---|---|
-| **GME** | GameStop Corp. | $24.23 | 65 | 11.9 | ❌ | ✅ |
+| **GME** | GameStop Corp. | $nan | 65 | None | ❌ | ✅ |
 
 ---
 _Isto é uma ferramenta de screening baseada numa metodologia pública (SEPA / Trend Template de Mark Minervini). Não é aconselhamento financeiro. Dados: Yahoo Finance via yfinance._
