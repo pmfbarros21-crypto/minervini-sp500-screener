@@ -1,6 +1,6 @@
-# Minervini S&P 500 Screen — 2026-11-23
+# Minervini S&P 500 Screen — 2026-11-24
 
-_Gerado em 2026-11-24T06:00:01.951944+00:00 · 503/504 tickers processados, 1 falharam._
+_Gerado em 2026-11-25T04:53:38.862297+00:00 · 503/504 tickers processados, 1 falharam._
 
 
 ## 🔴 Saúde do mercado: CORRECTION / CAUTION
@@ -11,57 +11,67 @@ _Gerado em 2026-11-24T06:00:01.951944+00:00 · 503/504 tickers processados, 1 fa
 
 | Ticker | Nome | Preço | RS Rating | VCP Score | Cresc. EPS YoY | Cresc. Receita YoY | Passa fundamentais? | Sinal |
 |---|---|---|---|---|---|---|---|---|
-| **HAS** | Hasbro | $113.53 | 93 | 5.4 | 69.2% | 15.0% | ✅ | BUY - new Trend Template qualifier |
-| **PTC** | PTC Inc. | $196.0 | 93 | 85.4 | -54.8% | -24.7% | ❌ | BUY - new Trend Template qualifier |
-| **ALLE** | Allegion | $189.26 | 92 | 19.6 | 17.3% | 9.6% | ❌ | BUY - new Trend Template qualifier |
-| **MDLZ** | Mondelez International | $66.25 | 71 | 3.2 | 75.6% | 2.3% | ✅ | BUY - new Trend Template qualifier |
-| **WTW** | Willis Towers Watson | $335.77 | 70 | 12.8 | -0.3% | 7.5% | ❌ | BUY - new Trend Template qualifier |
+| **DLTR** | Dollar Tree | $154.65 | 95 | 0.0 | 173.1% | 7.0% | ✅ | BUY - breakout with volume |
+| **GILD** | Gilead Sciences | $178.29 | 95 | 5.7 | -20.4% | 6.8% | ❌ | BUY - new Trend Template qualifier |
+| **A** | Agilent Technologies | $183.52 | 94 | 5.5 | 7.7% | 8.1% | ❌ | BUY - breakout with volume |
+| **HAS** | Hasbro | $112.24 | 92 | 5.7 | 69.2% | 15.0% | ✅ | BUY - new Trend Template qualifier |
+| **PTC** | PTC Inc. | $196.0 | 91 | 86.2 | -54.8% | -24.7% | ❌ | BUY - new Trend Template qualifier |
+| **ALLE** | Allegion | $189.96 | 90 | 20.1 | 17.3% | 9.6% | ❌ | BUY - new Trend Template qualifier |
+| **WTW** | Willis Towers Watson | $346.76 | 75 | 10.1 | -0.3% | 7.5% | ❌ | BUY - new Trend Template qualifier |
+| **RCL** | Royal Caribbean Group | $318.27 | 74 | 16.9 | 9.7% | 8.8% | ❌ | BUY - new Trend Template qualifier |
+| **MDLZ** | Mondelez International | $67.01 | 73 | 0.3 | 75.6% | 2.3% | ✅ | BUY - new Trend Template qualifier |
+| **MMM** | 3M | $187.14 | 71 | 6.5 | 64.6% | 1.0% | ✅ | BUY - new Trend Template qualifier |
+| **INCY** | Incyte | $123.61 | 71 | 13.9 | n/d | 14.0% | ❌ | BUY - new Trend Template qualifier |
+| **DXCM** | Dexcom | $84.64 | 70 | 5.7 | -3.1% | 11.2% | ❌ | BUY - new Trend Template qualifier |
 
 ## 🔴 SELL warnings
 
 | Ticker | Nome | Preço | RS Rating | Motivo |
 |---|---|---|---|---|
-| **AMD** | Advanced Micro Devices | $453.46 | 97 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **APA** | APA Corporation | $44.06 | 97 | fechou abaixo da SMA50 |
-| **HUM** | Humana | $383.68 | 97 | fechou abaixo da SMA50 |
-| **RVTY** | Revvity | $151.29 | 97 | fechou abaixo da SMA50 |
-| **VEEV** | Veeva Systems | $268.65 | 95 | fechou abaixo da SMA50 |
-| **CNC** | Centene Corporation | $63.32 | 91 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **IQV** | IQVIA | $251.92 | 89 | fechou abaixo da SMA50 |
-| **NUE** | Nucor | $248.15 | 88 | fechou abaixo da SMA50 |
-| **COP** | ConocoPhillips | $132.19 | 86 | fechou abaixo da SMA50 |
-| **SWKS** | Skyworks Solutions | $77.12 | 83 | fechou abaixo da SMA50 |
-| **CVX** | Chevron Corporation | $206.17 | 82 | fechou abaixo da SMA50 |
-| **TRGP** | Targa Resources | $277.27 | 82 | fechou abaixo da SMA50 |
-| **ANET** | Arista Networks | $178.31 | 81 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **EOG** | EOG Resources | $145.34 | 79 | fechou abaixo da SMA50 |
-| **GRMN** | Garmin | $279.07 | 78 | fechou abaixo da SMA50 |
-| **ADI** | Analog Devices | $378.75 | 76 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **CF** | CF Industries | $115.96 | 73 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
-| **NDSN** | Nordson Corporation | $322.63 | 72 | fechou abaixo da SMA50 |
-| **URI** | United Rentals | $1040.7 | 72 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
-| **DE** | Deere & Company | $633.03 | 71 | fechou abaixo da SMA50 |
-| **XOM** | ExxonMobil | $156.9 | 70 | fechou abaixo da SMA50 |
-| **IEX** | IDEX Corporation | $227.92 | 69 | fechou abaixo da SMA50, RS Rating caiu para 69 |
-| **OMC** | Omnicom Group | $87.32 | 69 | RS Rating caiu para 69 |
-| **CL** | Colgate-Palmolive | $97.93 | 68 | RS Rating caiu para 68 |
-| **DHR** | Danaher Corporation | $225.66 | 68 | RS Rating caiu para 68 |
-| **EMR** | Emerson Electric | $158.31 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
-| **MRK** | Merck & Co. | $135.47 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
-| **MSFT** | Microsoft | $492.5 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
-| **WAB** | Wabtec | $284.01 | 68 | fechou abaixo da SMA50, RS Rating caiu para 68 |
-| **BNY** | BNY Mellon | $145.82 | 67 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 67 |
-| **PFG** | Principal Financial Group | $107.66 | 67 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 67 |
-| **XYZ** | Block, Inc. | $73.24 | 64 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 64 |
-| **GDDY** | GoDaddy | $101.78 | 64 | fechou abaixo da SMA50, RS Rating caiu para 64 |
-| **WDAY** | Workday, Inc. | $176.08 | 63 | fechou abaixo da SMA50, RS Rating caiu para 63 |
-| **UNP** | Union Pacific Corporation | $288.89 | 61 | RS Rating caiu para 61 |
-| **PFE** | Pfizer | $27.4 | 59 | fechou abaixo da SMA50, RS Rating caiu para 59 |
-| **ELV** | Elevance Health | $379.55 | 57 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 57 |
-| **SOLV** | Solventum | $85.4 | 52 | fechou abaixo da SMA50, RS Rating caiu para 52 |
-| **ROST** | Ross Stores | $217.04 | 50 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 50 |
-| **WSM** | Williams-Sonoma, Inc. | $212.13 | 47 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 47 |
-| **UNH** | UnitedHealth Group | $336.08 | 32 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 32 |
+| **OKTA** | Okta, Inc. | $198.12 | 99 | fechou abaixo da SMA50 |
+| **HUM** | Humana | $402.72 | 98 | fechou abaixo da SMA50 |
+| **APA** | APA Corporation | $44.91 | 97 | fechou abaixo da SMA50 |
+| **RVTY** | Revvity | $153.17 | 97 | fechou abaixo da SMA50 |
+| **AMD** | Advanced Micro Devices | $413.27 | 95 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **VEEV** | Veeva Systems | $273.62 | 91 | fechou abaixo da SMA50 |
+| **CNC** | Centene Corporation | $64.35 | 90 | fechou abaixo da SMA50 |
+| **COP** | ConocoPhillips | $134.64 | 88 | fechou abaixo da SMA50 |
+| **SWKS** | Skyworks Solutions | $80.95 | 87 | fechou abaixo da SMA50 |
+| **NUE** | Nucor | $248.01 | 85 | fechou abaixo da SMA50 |
+| **TRGP** | Targa Resources | $283.17 | 85 | fechou abaixo da SMA50 |
+| **EBAY** | eBay Inc. | $113.77 | 84 | fechou abaixo da SMA50 |
+| **IQV** | IQVIA | $252.01 | 83 | fechou abaixo da SMA50 |
+| **CVX** | Chevron Corporation | $208.73 | 82 | fechou abaixo da SMA50 |
+| **EOG** | EOG Resources | $146.59 | 80 | fechou abaixo da SMA50 |
+| **GRMN** | Garmin | $282.02 | 78 | fechou abaixo da SMA50 |
+| **MRK** | Merck & Co. | $141.57 | 78 | fechou abaixo da SMA50 |
+| **TXN** | Texas Instruments | $258.44 | 73 | fechou abaixo da SMA50, preço abaixo da SMA150/200 |
+| **CF** | CF Industries | $116.74 | 72 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200 |
+| **XOM** | ExxonMobil | $158.23 | 72 | fechou abaixo da SMA50 |
+| **J** | Jacobs Solutions | $151.98 | 69 | RS Rating caiu para 69 |
+| **MSCI** | MSCI | $633.92 | 69 | RS Rating caiu para 69 |
+| **NDSN** | Nordson Corporation | $320.15 | 69 | fechou abaixo da SMA50, RS Rating caiu para 69 |
+| **DHR** | Danaher Corporation | $229.09 | 68 | RS Rating caiu para 68 |
+| **URI** | United Rentals | $1029.68 | 68 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 68 |
+| **PFE** | Pfizer | $28.46 | 67 | fechou abaixo da SMA50, RS Rating caiu para 67 |
+| **PFG** | Principal Financial Group | $108.7 | 67 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 67 |
+| **IEX** | IDEX Corporation | $225.77 | 65 | fechou abaixo da SMA50, RS Rating caiu para 65 |
+| **ANET** | Arista Networks | $168.56 | 64 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 64 |
+| **WAB** | Wabtec | $280.3 | 64 | fechou abaixo da SMA50, RS Rating caiu para 64 |
+| **MSFT** | Microsoft | $496.13 | 63 | fechou abaixo da SMA50, RS Rating caiu para 63 |
+| **UNP** | Union Pacific Corporation | $290.83 | 63 | RS Rating caiu para 63 |
+| **BNY** | BNY Mellon | $145.22 | 62 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **ELV** | Elevance Health | $391.17 | 62 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **ROST** | Ross Stores | $226.18 | 62 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 62 |
+| **DE** | Deere & Company | $613.76 | 61 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 61 |
+| **EMR** | Emerson Electric | $156.98 | 61 | fechou abaixo da SMA50, RS Rating caiu para 61 |
+| **XYZ** | Block, Inc. | $74.15 | 58 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 58 |
+| **GDDY** | GoDaddy | $102.28 | 58 | fechou abaixo da SMA50, RS Rating caiu para 58 |
+| **SOLV** | Solventum | $88.16 | 58 | RS Rating caiu para 58 |
+| **WDAY** | Workday, Inc. | $179.23 | 58 | fechou abaixo da SMA50, RS Rating caiu para 58 |
+| **WSM** | Williams-Sonoma, Inc. | $213.87 | 47 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 47 |
+| **UNH** | UnitedHealth Group | $341.88 | 38 | fechou abaixo da SMA50, SMA50 cruzou abaixo da SMA150/200, preço abaixo da SMA150/200, RS Rating caiu para 38 |
+| **ADI** | Analog Devices | $312.95 | 25 | fechou abaixo da SMA50, preço abaixo da SMA150/200, RS Rating caiu para 25 |
 
 ## 👀 Watchlist (a formar base, VCP em contração)
 
@@ -71,7 +81,7 @@ _Vazio._
 
 | Ticker | Nome | Preço | RS Rating | VCP Score | Trend Template completo? | Fundamentais |
 |---|---|---|---|---|---|---|
-| **GME** | GameStop Corp. | $27.3 | 96 | 20.4 | ❌ | ✅ |
+| **GME** | GameStop Corp. | $27.48 | 96 | 20.3 | ❌ | ✅ |
 
 ---
 _Isto é uma ferramenta de screening baseada numa metodologia pública (SEPA / Trend Template de Mark Minervini). Não é aconselhamento financeiro. Dados: Yahoo Finance via yfinance._
