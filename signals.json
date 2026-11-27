@@ -1,15 +1,16 @@
 {
-  "generated_at_utc": "2026-11-26T04:09:16.304946+00:00",
+  "generated_at_utc": "2026-11-27T04:14:37.443760+00:00",
   "as_of_trading_date": "2026-11-25",
   "universe_size": 504,
-  "downloaded_ok": 503,
+  "downloaded_ok": 502,
   "download_failed": [
+    "AMGN",
     "VYLR"
   ],
   "market_health": {
     "status": "CORRECTION / CAUTION",
     "detail": "\u00cdndice abaixo de m\u00e9dias-chave \u2014 Minervini reduziria exposi\u00e7\u00e3o e evitaria comprar agressivamente.",
-    "distribution_days": 9,
+    "distribution_days": 10,
     "index_close": 7182.78,
     "index_above_50sma": false,
     "index_above_150_200sma": false
@@ -57,10 +58,10 @@
       "pct_below_52w_high": 14.0,
       "signal": "BUY - new Trend Template qualifier",
       "strong_rs": true,
-      "eps_growth_yoy": -13.4,
-      "revenue_growth_yoy": 12.5,
-      "roe": null,
-      "profit_margin": 4.1,
+      "eps_growth_yoy": -3.3,
+      "revenue_growth_yoy": 9.3,
+      "roe": 2679.6,
+      "profit_margin": 4.0,
       "meets_growth_bar": false
     },
     {
@@ -192,6 +193,22 @@
       "meets_growth_bar": false
     },
     {
+      "ticker": "APD",
+      "name": "Air Products",
+      "sector": "Materials",
+      "price": 314.26,
+      "rs_rating": 70,
+      "vcp_score": 10.1,
+      "pct_below_52w_high": 3.0,
+      "signal": "BUY - new Trend Template qualifier",
+      "strong_rs": false,
+      "eps_growth_yoy": 11824.5,
+      "revenue_growth_yoy": 12.3,
+      "roe": 3.2,
+      "profit_margin": 4.1,
+      "meets_growth_bar": true
+    },
+    {
       "ticker": "PPG",
       "name": "PPG Industries",
       "sector": "Materials",
@@ -292,6 +309,19 @@
       ]
     },
     {
+      "ticker": "WST",
+      "name": "West Pharmaceutical Services",
+      "sector": "Health Care",
+      "price": 372.94,
+      "rs_rating": 90,
+      "vcp_score": 2.1,
+      "pct_below_52w_high": 14.9,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50"
+      ]
+    },
+    {
       "ticker": "CNC",
       "name": "Centene Corporation",
       "sector": "Health Care",
@@ -318,19 +348,6 @@
       ]
     },
     {
-      "ticker": "WST",
-      "name": "West Pharmaceutical Services",
-      "sector": "Health Care",
-      "price": 372.94,
-      "rs_rating": 89,
-      "vcp_score": 2.1,
-      "pct_below_52w_high": 14.9,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50"
-      ]
-    },
-    {
       "ticker": "COP",
       "name": "ConocoPhillips",
       "sector": "Energy",
@@ -348,7 +365,7 @@
       "name": "Targa Resources",
       "sector": "Energy",
       "price": 285.53,
-      "rs_rating": 86,
+      "rs_rating": 87,
       "vcp_score": 11.0,
       "pct_below_52w_high": 9.8,
       "signal": "SELL WARNING - saiu do Trend Template",
@@ -507,13 +524,13 @@
       "name": "Nordson Corporation",
       "sector": "Industrials",
       "price": 321.02,
-      "rs_rating": 68,
+      "rs_rating": 69,
       "vcp_score": 16.7,
       "pct_below_52w_high": 5.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
-        "RS Rating caiu para 68"
+        "RS Rating caiu para 69"
       ]
     },
     {
@@ -600,6 +617,21 @@
       ]
     },
     {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "sector": "Industrials",
+      "price": 1015.72,
+      "rs_rating": 64,
+      "vcp_score": 0.0,
+      "pct_below_52w_high": 15.4,
+      "signal": "SELL WARNING - saiu do Trend Template",
+      "reasons": [
+        "fechou abaixo da SMA50",
+        "pre\u00e7o abaixo da SMA150/200",
+        "RS Rating caiu para 64"
+      ]
+    },
+    {
       "ticker": "PFE",
       "name": "Pfizer",
       "sector": "Health Care",
@@ -614,18 +646,16 @@
       ]
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "sector": "Industrials",
-      "price": 1015.72,
-      "rs_rating": 63,
-      "vcp_score": 0.0,
-      "pct_below_52w_high": 15.4,
+      "ticker": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "price": 227.35,
+      "rs_rating": 62,
+      "vcp_score": 33.9,
+      "pct_below_52w_high": 5.8,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
-        "fechou abaixo da SMA50",
-        "pre\u00e7o abaixo da SMA150/200",
-        "RS Rating caiu para 63"
+        "RS Rating caiu para 62"
       ]
     },
     {
@@ -643,15 +673,16 @@
       ]
     },
     {
-      "ticker": "DHR",
-      "name": "Danaher Corporation",
-      "sector": "Health Care",
-      "price": 227.35,
+      "ticker": "EMR",
+      "name": "Emerson Electric",
+      "sector": "Industrials",
+      "price": 157.23,
       "rs_rating": 61,
-      "vcp_score": 33.9,
-      "pct_below_52w_high": 5.8,
+      "vcp_score": 3.6,
+      "pct_below_52w_high": 8.3,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
+        "fechou abaixo da SMA50",
         "RS Rating caiu para 61"
       ]
     },
@@ -681,20 +712,6 @@
       "reasons": [
         "fechou abaixo da SMA50",
         "pre\u00e7o abaixo da SMA150/200",
-        "RS Rating caiu para 60"
-      ]
-    },
-    {
-      "ticker": "EMR",
-      "name": "Emerson Electric",
-      "sector": "Industrials",
-      "price": 157.23,
-      "rs_rating": 60,
-      "vcp_score": 3.6,
-      "pct_below_52w_high": 8.3,
-      "signal": "SELL WARNING - saiu do Trend Template",
-      "reasons": [
-        "fechou abaixo da SMA50",
         "RS Rating caiu para 60"
       ]
     },
@@ -834,14 +851,14 @@
       "name": "Analog Devices",
       "sector": "Information Technology",
       "price": 333.11,
-      "rs_rating": 33,
+      "rs_rating": 34,
       "vcp_score": 0.0,
       "pct_below_52w_high": 25.1,
       "signal": "SELL WARNING - saiu do Trend Template",
       "reasons": [
         "fechou abaixo da SMA50",
         "pre\u00e7o abaixo da SMA150/200",
-        "RS Rating caiu para 33"
+        "RS Rating caiu para 34"
       ]
     }
   ],
